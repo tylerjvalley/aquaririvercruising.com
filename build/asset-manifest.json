@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Aquari/static/css/main.afd7172b.chunk.css",
+    "main.js": "/Aquari/static/js/main.f797dee2.chunk.js",
+    "main.js.map": "/Aquari/static/js/main.f797dee2.chunk.js.map",
+    "runtime-main.js": "/Aquari/static/js/runtime-main.cb882369.js",
+    "runtime-main.js.map": "/Aquari/static/js/runtime-main.cb882369.js.map",
+    "static/css/2.6c0f60ba.chunk.css": "/Aquari/static/css/2.6c0f60ba.chunk.css",
+    "static/js/2.9dcd4261.chunk.js": "/Aquari/static/js/2.9dcd4261.chunk.js",
+    "static/js/2.9dcd4261.chunk.js.map": "/Aquari/static/js/2.9dcd4261.chunk.js.map",
+    "static/js/3.9416a0f0.chunk.js": "/Aquari/static/js/3.9416a0f0.chunk.js",
+    "static/js/3.9416a0f0.chunk.js.map": "/Aquari/static/js/3.9416a0f0.chunk.js.map",
+    "index.html": "/Aquari/index.html",
+    "static/css/2.6c0f60ba.chunk.css.map": "/Aquari/static/css/2.6c0f60ba.chunk.css.map",
+    "static/css/main.afd7172b.chunk.css.map": "/Aquari/static/css/main.afd7172b.chunk.css.map",
+    "static/js/2.9dcd4261.chunk.js.LICENSE.txt": "/Aquari/static/js/2.9dcd4261.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cb882369.js",
+    "static/css/2.6c0f60ba.chunk.css",
+    "static/js/2.9dcd4261.chunk.js",
+    "static/css/main.afd7172b.chunk.css",
+    "static/js/main.f797dee2.chunk.js"
+  ]
+}
