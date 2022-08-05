@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Aquari/static/css/main.afd7172b.chunk.css",
+    "main.css": "/Aquari/static/css/main.ee855d9e.chunk.css",
     "main.js": "/Aquari/static/js/main.f797dee2.chunk.js",
     "main.js.map": "/Aquari/static/js/main.f797dee2.chunk.js.map",
     "runtime-main.js": "/Aquari/static/js/runtime-main.cb882369.js",
@@ -12,14 +12,15 @@
     "static/js/3.9416a0f0.chunk.js.map": "/Aquari/static/js/3.9416a0f0.chunk.js.map",
     "index.html": "/Aquari/index.html",
     "static/css/2.6c0f60ba.chunk.css.map": "/Aquari/static/css/2.6c0f60ba.chunk.css.map",
-    "static/css/main.afd7172b.chunk.css.map": "/Aquari/static/css/main.afd7172b.chunk.css.map",
-    "static/js/2.9dcd4261.chunk.js.LICENSE.txt": "/Aquari/static/js/2.9dcd4261.chunk.js.LICENSE.txt"
+    "static/css/main.ee855d9e.chunk.css.map": "/Aquari/static/css/main.ee855d9e.chunk.css.map",
+    "static/js/2.9dcd4261.chunk.js.LICENSE.txt": "/Aquari/static/js/2.9dcd4261.chunk.js.LICENSE.txt",
+    "static/media/style.scss": "/Aquari/static/media/slick.c94f7671.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.cb882369.js",
     "static/css/2.6c0f60ba.chunk.css",
     "static/js/2.9dcd4261.chunk.js",
-    "static/css/main.afd7172b.chunk.css",
+    "static/css/main.ee855d9e.chunk.css",
     "static/js/main.f797dee2.chunk.js"
   ]
 }
