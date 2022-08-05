@@ -20,17 +20,17 @@ var BlogListData = BlogClassicData.slice(0, 3);
 
 const BannerData = [
     {
-        image: "./images/bg/amsterdam.jpg",
+        image: "images/bg/amsterdam.jpg",
         title: "Imagine, we are moving your hotel from city center to city center...",
         description: "...while you are dreaming of a new adventure in the next port of call!"
     },
     {
-        image: "./images/bg/river-cruise.jpg",
+        image: "images/bg/river-cruise.jpg",
         title: "Yes, savvy traveler!",
         description: "Our staterooms have all the confort of an excellent quality hotel room, and there are no extra charges for the river view!"
     },
     {
-        image: "./images/bg/cruise.jpg",
+        image: "images/bg/cruise.jpg",
         title: "We also sail with our ships through breathtaking, and ever-changing scenery!",
         description: "Enjoy this relaxing travel style from the Sun Deck, the Observation Lounge, or even your stateroom and watch as the landscape passes by..."
     },
