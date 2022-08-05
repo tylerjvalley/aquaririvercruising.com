@@ -20,17 +20,17 @@ var BlogListData = BlogClassicData.slice(0, 3);
 
 const BannerData = [
     {
-        image: "/images/bg/amsterdam.jpg",
+        image: "./images/bg/amsterdam.jpg",
         title: "Imagine, we are moving your hotel from city center to city center...",
         description: "...while you are dreaming of a new adventure in the next port of call!"
     },
     {
-        image: "/images/bg/river-cruise.jpg",
+        image: "./images/bg/river-cruise.jpg",
         title: "Yes, savvy traveler!",
         description: "Our staterooms have all the confort of an excellent quality hotel room, and there are no extra charges for the river view!"
     },
     {
-        image: "/images/bg/cruise.jpg",
+        image: "./images/bg/cruise.jpg",
         title: "We also sail with our ships through breathtaking, and ever-changing scenery!",
         description: "Enjoy this relaxing travel style from the Sun Deck, the Observation Lounge, or even your stateroom and watch as the landscape passes by..."
     },
@@ -40,7 +40,7 @@ const BannerData = [
 const PopupData = [
     {
         id: "01",
-        image: "./images/portfolio/portfolio-01.jpg",
+        image: "images/portfolio/portfolio-01.jpg",
         popupLink: [
             './images/portfolio/portfolio-01.jpg',
             'https://www.youtube.com/watch?v=ctsT5Y-InqE&ab_channel=Rainbow-Themes',
@@ -52,35 +52,35 @@ const PopupData = [
     },
     {
         id: "02",
-        image: "./images/portfolio/portfolio-02.jpg",
+        image: "images/portfolio/portfolio-02.jpg",
         popupLink: [
             'https://www.youtube.com/watch?v=ctsT5Y-InqE&ab_channel=Rainbow-Themes',
         ],
     },
     {
         id: "03",
-        image: "./images/portfolio/portfolio-03.jpg",
+        image: "images/portfolio/portfolio-03.jpg",
         popupLink: [
             './images/portfolio/portfolio-03.jpg',
         ],
     },
     {
         id: "04",
-        image: "./images/portfolio/portfolio-04.jpg",
+        image: "images/portfolio/portfolio-04.jpg",
         popupLink: [
             './images/portfolio/portfolio-04.jpg',
         ],
     },
     {
         id: "05",
-        image: "./images/portfolio/portfolio-04.jpg",
+        image: "images/portfolio/portfolio-04.jpg",
         popupLink: [
             'https://www.youtube.com/watch?v=ctsT5Y-InqE&ab_channel=Rainbow-Themes',
         ],
     },
     {
         id: "06",
-        image: "./images/portfolio/portfolio-05.jpg",
+        image: "images/portfolio/portfolio-05.jpg",
         popupLink: [
             './images/portfolio/portfolio-05.jpg',
         ],
@@ -98,7 +98,7 @@ const TravelAgency = () => {
                 <Slider className="slider-area slider-style-4 slider-dot rn-slick-dot rn-slick-arrow" {...BannerActivation}>
                     {BannerData.map((data, index) => (
                         <div key={index} className="single-slide">
-                            <div className="height-950 bg_image" data-black-overlay="5" style={{backgroundImage: `url(${process.env.PUBLIC_URL} ${data.image})`}}>
+                            <div className="height-950 bg_image" data-black-overlay="5" style={{backgroundImage: `url(${process.env.PUBLIC_URL}/${data.image})`}}>
                                 <div className="container">
                                     <div className="row row--30 align-items-center">
                                         <div className="col-12">

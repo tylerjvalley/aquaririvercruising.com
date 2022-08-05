@@ -4,6 +4,7 @@ import { FiPlay, FiZoomIn , FiFolderPlus} from "react-icons/fi";
 
 function GalleryOne({galleryItem}) {
     const { image, popupLink } = galleryItem;
+    console.log(process.env.PUBLIC_URL + image);
     const iconHandel = () => {
         if (popupLink) {
             if (popupLink.length > 1) {
@@ -25,7 +26,7 @@ function GalleryOne({galleryItem}) {
     return (
         <div className="rn-gallery icon-center">
             <div className="thumbnail">
-                <img className="radius-small" src={`${image}`} alt="Corporate Image" />
+                <img className="radius-small" src={`${process.env.PUBLIC_URL + '/' +  image}`} alt="Corporate Image" />
             </div>
             <div className="video-icon">
                 <button className="btn-default rounded-player sm-size" onClick={ () => setToggler(!toggler) }><span>{iconHandel()}</span></button>

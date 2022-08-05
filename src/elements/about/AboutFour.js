@@ -6,7 +6,7 @@ import { FcLandscape } from "react-icons/fc";
 const PopupData = [
     {
         id: "01",
-        image: "./images/blog/mountains.jpg",
+        image: "images/blog/mountains.jpg",
         popupLink: [
             'https://www.youtube.com/watch?v=RJWk32Flsps',
         ],

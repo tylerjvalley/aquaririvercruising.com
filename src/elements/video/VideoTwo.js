@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import FsLightbox from "fslightbox-react";
 import { FiPlay, FiZoomIn , FiFolderPlus} from "react-icons/fi";
 
+
 function VideoTwo({galleryItem , imagename}) {
     const { popupLink } = galleryItem;
     const iconHandel = () => {
@@ -27,7 +28,7 @@ function VideoTwo({galleryItem , imagename}) {
             <div className="video-popup icon-center">
                 <div className="overlay-content">
                     <div className="thumbnail">
-                        <img className="radius-small" src={`${imagename}`} alt="Corporate Image" />
+                        <img className="radius-small" src={process.env.PUBLIC_URL + "/images/blog/mountains.jpg"} alt="Corporate Image" />
                     </div>
                     <div className="video-icon">
                         <button className="btn-default rounded-player" onClick={ () => setToggler(!toggler) }><span>{iconHandel()}</span></button>
