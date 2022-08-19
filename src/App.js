@@ -10,9 +10,11 @@ import Corporate from "./pages/Corporate";
 import Business from "./pages/Business";
 import DigitalAgency from "./pages/DigitalAgency";
 import Finance from "./pages/Finance";
-import Company from "./pages/Company";
+import BusinessTravel from './pages/BusinessTravel';
 import Marketing from "./pages/Marketing";
 import TravelAgency from "./pages/TravelAgency";
+import LeisureTravel from './pages/LeisureTravel';
+import Accomodations from './pages/Accomodations';
 import Consulting from "./pages/Consulting";
 import SeoAgency from "./pages/SeoAgency";
 import PersonalPortfolio from "./pages/PersonalPortfolio";
@@ -28,6 +30,7 @@ import CategoryList from "./pages/CategoryList";
 import TagList from "./pages/TagList";
 import Author from "./pages/Author";
 import AboutUs from "./pages/AboutUs";
+import Staterooms from "./pages/Staterooms";
 
 // Elements import Here 
 
@@ -70,6 +73,7 @@ import Error from "./pages/Error";
 
 // Import Css Here 
 import './assets/scss/style.scss';
+import OurMission from './pages/OurMission';
 
 
 const App = () => {
@@ -78,6 +82,12 @@ const App = () => {
             <PageScrollTop>
                 <Switch>
                     <Route path={`${process.env.PUBLIC_URL + "/"}`} exact component={TravelAgency}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/staterooms"}`} exact component={Staterooms}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/accomodations"}`} exact component={Accomodations}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/digital-agency"}`} exact component={DigitalAgency}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/business-travel"}`} exact component={BusinessTravel}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/leisure-travel"}`} exact component={LeisureTravel}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/our-mission"}`} exact component={OurMission}/>
                     {/*
                     <Route path={`${process.env.PUBLIC_URL + "/business-consulting"}`} exact component={HomeDefault}/>
                     <Route path={`${process.env.PUBLIC_URL + "/business-consulting-2"}`} exact component={BusinessConsulting2}/>
@@ -85,7 +95,7 @@ const App = () => {
                     <Route path={`${process.env.PUBLIC_URL + "/business"}`} exact component={Business}/>
                     <Route path={`${process.env.PUBLIC_URL + "/digital-agency"}`} exact component={DigitalAgency}/>
                     <Route path={`${process.env.PUBLIC_URL + "/finance"}`} exact component={Finance}/>
-                    <Route path={`${process.env.PUBLIC_URL + "/company"}`} exact component={Company}/>
+                   
                     <Route path={`${process.env.PUBLIC_URL + "/marketing"}`} exact component={Marketing}/>
                     <Route path={`${process.env.PUBLIC_URL + "/travel-agency"}`} exact component={TravelAgency}/>
                     <Route path={`${process.env.PUBLIC_URL + "/consulting"}`} exact component={Consulting}/>
@@ -128,11 +138,11 @@ const App = () => {
                     <Route path={`${process.env.PUBLIC_URL + "/brand"}`} exact component={Brand}/>
                     <Route path={`${process.env.PUBLIC_URL + "/advance-tab"}`} exact component={AdvanceTab}/>
                     <Route path={`${process.env.PUBLIC_URL + "/advance-pricing"}`} exact component={AdvancePricing}/>
-                    <Route path={`${process.env.PUBLIC_URL + "/about-us"}`} exact component={AboutUs}/>
+                   
 
                     <Route path={`${process.env.PUBLIC_URL + "/error"}`} exact component={Error}/>
                     
-                    <Route path={`${process.env.PUBLIC_URL + "/portfolio"}`} exact component={Portfolio}/>
+                    
                     <Route path={`${process.env.PUBLIC_URL + "/portfolio-three-column"}`} exact component={portfolioThreeColumn}/>
                     <Route path={`${process.env.PUBLIC_URL + "/portfolio-full-width"}`} exact component={PortfolioFullWidth}/>
                     <Route path={`${process.env.PUBLIC_URL + "/portfolio-grid-layout"}`} exact component={PortfolioGrid}/>
