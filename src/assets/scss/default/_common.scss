@@ -426,5 +426,48 @@
     box-shadow: var(--shadow-lighter);
 }
 
+.about-area {
+
+    margin: 100px 0;
+    background-image: url('../../../assets/images/blkwhite.jpg');
+    background-size: cover;
+    background-position: center;
+    
+    .feature-list {
+        text-align: left;
+        margin-left: 350px !important;
+        p {
+            color: black;
+            font-weight: 600;
+        }
+    }
+    .text-center {
+        text-align: center;
+    }
+}
+
+.rn-gallery {
+    h5 {
+        font-size: 28px;
+        margin: 25px 0;
+        text-align: center;
+    }
+    p {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+.rn-gallery.popup2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img {
+        height: 500px;
+        width: 600px;
+    }
+}
+
 
 

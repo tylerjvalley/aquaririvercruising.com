@@ -17,45 +17,22 @@ const AboutFour = ({image}) => {
     return (
         <div className="about-area about-style-4 rn-section-gap">
             <div className="container">
-                <div className="row row--40 align-items-center">
-                    <div className="col-lg-6">
-                        {PopupData.map((item) => (
-                            <div className="video-btn" key={item.id}>
-                                <VideoTwo imagename={`${image}`} galleryItem={item} />
-                            </div>
-                        ))}
-                    </div>
-                    <div className="col-lg-6 mt_md--40 mt_sm--40">
+                <div className="row m-auto align-items-center text-center">
+                    <div className="col-lg-12 mt_md--40 mt_sm--40">
                         <div className="content">
                             <div className="inner">
-                                <h3 className="title"><strong>Why Aquari?</strong> We ask ourselves daily, how we can give you a better experience!</h3>
+                                <h3 className="title">Reasons To Float With Aquari</h3>
+                                <h4 className="title">You're not a tourist with us, you're a traveler.</h4>
+                              
                                 <ul className="feature-list">
                                     <li>
-                                        <div className="icon">
-                                            <BiWater />
-                                        </div>
                                         <div className="title-wrapper">
-                                            <h4 className="title">We start, when sailing...</h4>
-                                            <p className="text">...you will be on a spectacular river cruise ship!</p>
-                                            <p className="text">...you will enjoy the most scenic river stretches!</p>
-                                            <p className="text">...you will arrive in the town center!</p>
-                                            <p className="text">...you will relax and enjoy yourself!</p>
-                                            <p className="text">...and you <strong>won't</strong> get sea-sick! as there are no waves on rivers!</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div className="icon">
-                                            <FcLandscape />
-                                        </div>
-                                        <div className="title-wrapper">
-                                            <h4 className="title">When Docked...</h4>
-                                            <p className="text">...you can stay in a centrally located hotel!</p>
-                                            <p className="text">...you can relax and plan your discoveries!</p>
-                                            <p className="text">...you will be able to explore the town on foot!</p>
-                                            <p className="text">...you can have a bite or two aboard!</p>
-                                            <p className="text">...you can meet people!</p>
-                                            <p className="text">...you can enjoy all there is in town!</p>
-                                            <p className="text">...and you are the only one to decide where to go and what to explore!</p>
+                                            
+                                            <p className="text">- Just unpack one time, the rest of the time your hotel will travel with you.</p>
+                                            <p className="text">- Made friends onland? Bring them on board for dinner or lounging on our observation deck!</p>
+                                            <p className="text">- No strict itineraries here, we offer you full flexibility to fill your days with whatever floats your boat.</p>
+                                            <p className="text">- Our Concierge can support you in planning your activities at each destination.</p>
+                                            <p className="text">- Aquari plans with local events in mind to get you the most out of you European exploration.</p>
                                         </div>
                                     </li>
                                 </ul>

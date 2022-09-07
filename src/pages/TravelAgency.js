@@ -14,11 +14,8 @@ import ServiceOne from '../elements/service/ServiceOne';
 import AboutOne from '../elements/about/AboutOne';
 import AboutTwo from '../elements/about/AboutTwo';
 import AboutFour from '../elements/about/AboutFour';
-import AboutThree from '../elements/about/AboutThree';
-import AboutFive from '../elements/about/AboutFive';
-import AboutSix from "../elements/about/AboutSix";
-import Mission from '../elements/about/Mission';
 import GalleryOne from "../elements/gallery/GalleryOne";
+import Gallery from "../elements/gallery/Gallery";
 import TestimonialThree from "../elements/testimonial/TestimonialThree";
 import BlogList from "../components/blog/itemProp/BlogList";
 import BlogClassicData from '../data/blog/BlogList.json';
@@ -26,38 +23,44 @@ var BlogListData = BlogClassicData.slice(0, 3);
 
 const BannerData = [
     {
-        image: "images/service/waterways2.jpg",
-        title: "Imagine, we are moving your hotel from city center to city center...",
-        description: "...while you are dreaming of a new adventure in the next port of call!"
+        image: "images/service/lucernemaybe.jpg",
+        title: "Imagine checking into one hotel that transports you to all of the top destinations across Europe with breathtaking scenery.",
+        
     },
     {
         image: "images/bg/river-cruise.jpg",
-        title: "Yes, savvy traveler!",
-        description: "Our staterooms have all the confort of an excellent quality hotel room, and there are no extra charges for the river view!",
-        link: "/accomodations",
-        linkText: "Accommodation",
-        image2: "/images/service/ship.png"
+        title: "Take control of how you want to travel.",
+        description: "Drift away from strict itineraries",
     },
     {
-        image: "images/service/exterior8.jpg",
-        title: "We also sail with our ships through breathtaking, and ever-changing scenery!",
-        description: "Enjoy this relaxing travel style from the Sun Deck, the Observation Lounge, or even your stateroom and watch as the landscape passes by..."
+        image: "images/service/nicelilriver.jpg",
+        title: "Don't want to pay more for luxurious views, and breakfast?",
+        description: "Well, don't. It's on us."
     },
+    {
+        image: "images/service/boatwithfriends.jpg",
+        title: "Even though travel therapy isn't covered by your insurance,",
+        description: "We've got you covered as soon as you step foot onto the boat."
+    }
 ]
 
 
 const PopupData = [
     {
         id: "01",
-        image: "images/service/leisure.png",
-        linkText: "Leisure Traveler & Planning",
-        link: "/Aquari/leisure-travel"
+        image: "images/service/coffeeandlaptop.jpg",
+        title: "Where you have your coffee is up to you.",
+        description: "Unpack once and have your hotel travel with you.",
+        description2: "Rather than constantly packing and finding a hotel"
     },
     {
         id: "02",
-        image: "images/service/calendar.png",
-        linkText: "Business Traveler",
-        link: "/Aquari/business-travel"
+        image: "images/service/howlongyoustay.jpg",
+        title: "It's your decision on",
+        description: "When and where you want to depart",
+        description2: "What events you want to participate in.",
+        description3: "How long you want to stay",
+        description4: "Where you want to explore"
     },
    
 ]
@@ -65,15 +68,12 @@ const PopupData = [
 const PopupData2 = [
     {
         id: "01",
-        image: "images/service/your-vacation.png",
-        linkText: "Meet our team and crew!"
+        image: "images/service/prague.jpg",
+        //linkText: "Meet our team and crew!"
+        title: "Traveling is peace",
+        description: "Here at Aquari we believe that traveling not only brings peace to our lives, at the same time it allows us to see people in a different perspective. Traveling allows you to expand your horizons, see how other people live their lives in these wonderful cultures that everyone deserves to experience. This understanding is the underlying cause for respect towards others and “peace” in this world."
     },
-    {
-        id: "02",
-        image: "images/service/friendships.png",
-        linkText: "Read more about us!",
-        link: "/Aquari/our-mission"
-    }
+    
 ]
 
 const TravelAgency = () => {
@@ -94,7 +94,7 @@ const TravelAgency = () => {
                                         <div className="col-12">
                                             <div className="inner text-center">
                                                 <h1 className="title" dangerouslySetInnerHTML={{__html: data.title}}></h1>
-                                                <p className="description" dangerouslySetInnerHTML={{__html: data.description}}></p>
+                                                <h1 className="title" dangerouslySetInnerHTML={{__html: data.description}}></h1>
                                                 <a href={process.env.PUBLIC_URL + data.link}><p style={{color: "#43D9FA", textDecoration: "underline", textAlign: "center"}} className="description link" dangerouslySetInnerHTML={{__html: data.linkText}}></p></a>
                                             </div>
                                         </div>
@@ -106,7 +106,7 @@ const TravelAgency = () => {
                 </Slider>
                 {/* End Slider Area  */}
 
-                {/* Start Service Area  */}
+                {/* Start Service Area  
                 <div className="rn-service-area rn-section-gapBottom pt--100">
                     <div className="container">
                         <ServiceOne 
@@ -123,7 +123,7 @@ const TravelAgency = () => {
                 
                 {/* Start Elements Area  */}
                 <div className="rwt-gallery-area rn-section-gapBottom">
-                    <div className="container">
+                    
                         <div className="row mt_dec--30 row--15">
                             {PopupData2.map((item) => (
                                 <div className="col-12 mt--30" key={item.id}>
@@ -132,20 +132,20 @@ const TravelAgency = () => {
                                 </div>
                             ))}
                         </div>
-                    </div>
+                    
                 </div>
                 {/* End Elements Area  */}
 
                 <Separator />
                 {/* Start Elements Area  */}
-                <h1 style={{marginBottom: "50px", textAlign: "center"}}>Traveling for business or leisure?</h1>
+                
                 <div className="rwt-gallery-area rn-section-gapBottom">
                     <div className="container">
                         <div className="row mt_dec--30 row--15">
                             {PopupData.map((item) => (
                                 <div className="col-12 mt--30" key={item.id}>
                                     {/* images: 1270 x 950 */}
-                                    <GalleryOne galleryItem={item} />
+                                    <Gallery galleryItem={item} />
                                 </div>
                             ))}
                         </div>
@@ -157,22 +157,7 @@ const TravelAgency = () => {
                
 
                 <Separator />
-                <div className="rwt-gallery-area rn-section-gapBottom">
-                    <div className="container">
-                        <div className="row mt_dec--30 row--15">
-                            
-                            <div className="col-12 mt--30" key={"07"}>
-                                {/* images: 1270 x 950 */}
-                                <div className="rn-gallery icon-center">
-                                    <div className="thumbnail">
-                                        <img className="radius-small" src={`${process.env.PUBLIC_URL + '/images/service/closing.png'}`} alt="Corporate Image" />
-                                    </div>
-                                </div>
-                            </div>
-                           
-                        </div>
-                    </div>
-                </div>
+                
                  
                {/*} <FooterTwo /> */}
                 <Copyright />
