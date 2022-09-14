@@ -8,7 +8,7 @@ function GalleryOne({galleryItem}) {
     return (
         <div className="rn-gallery icon-center">
             <div className="thumbnail">
-                <img style={{height: "1000px"}} className="radius-small" src={`${process.env.PUBLIC_URL + '/' +  image}`} alt="Corporate Image" />
+                <img style={{height: "600px"}} className="radius-small" src={`${process.env.PUBLIC_URL + '/' +  image}`} alt="Corporate Image" />
             </div>
             <div className="container">
                 <h5>{title}</h5>

@@ -23,17 +23,17 @@ var BlogListData = BlogClassicData.slice(0, 3);
 
 const BannerData = [
     {
-        image: "images/service/lucernemaybe.jpg",
-        title: "Imagine checking into one hotel that transports you to all of the top destinations across Europe with breathtaking scenery.",
+        image: "images/service/cologne-night.jpg",
+        title: "Imagine staying in one hotel that takes you to all of the top destinations in Europe without ever changing rooms.",
         
     },
     {
-        image: "images/bg/river-cruise.jpg",
+        image: "images/service/relax.jpg",
         title: "Take control of how you want to travel.",
         description: "Drift away from strict itineraries",
     },
     {
-        image: "images/service/nicelilriver.jpg",
+        image: "images/service/croissant.jpg",
         title: "Don't want to pay more for luxurious views, and breakfast?",
         description: "Well, don't. It's on us."
     },
@@ -48,33 +48,41 @@ const BannerData = [
 const PopupData = [
     {
         id: "01",
-        image: "images/service/coffeeandlaptop.jpg",
+        image: "images/service/have-your-coffee.jpg",
         title: "Where you have your coffee is up to you.",
         description: "Unpack once and have your hotel travel with you.",
         description2: "Rather than constantly packing and finding a hotel"
     },
     {
         id: "02",
-        image: "images/service/howlongyoustay.jpg",
+        image: "images/service/friendsdoingthings.jpg",
         title: "It's your decision on",
         description: "When and where you want to depart",
         description2: "What events you want to participate in.",
         description3: "How long you want to stay",
         description4: "Where you want to explore"
     },
+    {
+        id: "03",
+        image: "images/service/girl-traveling.jpg",
+        title: "Explore with Us",
+        description: "Aquari solves all the downsides to multi-city traveling while giving you affordable luxury and complete flexibility",
+        description2: "Cruise to the beat of your own adventure"
+    }
    
 ]
 
 const PopupData2 = [
     {
         id: "01",
-        image: "images/service/prague.jpg",
+        image: "images/service/strasbourg-with-peeps.jpg",
         //linkText: "Meet our team and crew!"
         title: "Traveling is peace",
         description: "Here at Aquari we believe that traveling not only brings peace to our lives, at the same time it allows us to see people in a different perspective. Traveling allows you to expand your horizons, see how other people live their lives in these wonderful cultures that everyone deserves to experience. This understanding is the underlying cause for respect towards others and “peace” in this world."
     },
     
 ]
+
 
 const TravelAgency = () => {
     return (
@@ -143,7 +151,7 @@ const TravelAgency = () => {
                     <div className="container">
                         <div className="row mt_dec--30 row--15">
                             {PopupData.map((item) => (
-                                <div className="col-12 mt--30" key={item.id}>
+                                <div className="col-lg-4 col-12 mt--30" key={item.id}>
                                     {/* images: 1270 x 950 */}
                                     <Gallery galleryItem={item} />
                                 </div>
@@ -153,7 +161,9 @@ const TravelAgency = () => {
                 </div>
                 {/* End Elements Area  */}
 
-
+            <div className="container last-text">
+                <h1>Adventures begin April 2023</h1>
+            </div>
                
 
                 <Separator />

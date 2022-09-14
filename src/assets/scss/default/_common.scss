@@ -427,18 +427,44 @@
 }
 
 .about-area {
-
-    margin: 100px 0;
-    background-image: url('../../../assets/images/blkwhite.jpg');
-    background-size: cover;
-    background-position: center;
     
+    margin: 100px 0;
+    h3 {
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+    }
+   
     .feature-list {
         text-align: left;
         margin-left: 350px !important;
+        @media (max-width: 1399px) {
+            margin-left: 250px !important;
+        }
+
+        @media (max-width: 1199px) {
+            margin-left: 160px !important;
+        }
+
+        @media (max-width: 991px) {
+            margin-left: 100px !important;
+        }
+
+        @media (max-width: 767px) {
+            margin-left: 42px !important;
+            width: 100% !important;
+        }
+
+        @media (max-width: 457px) {
+            .title-wrapper {
+                margin-left: 0 !important;
+            }
+        }
+        
         p {
-            color: black;
+            color: var(--color-body) !important;
             font-weight: 600;
+            font-size: 20px !important;
+            font-family: 'Lato', sans-serif;
         }
     }
     .text-center {
@@ -447,22 +473,45 @@
 }
 
 .rn-gallery {
+    color: var(--color-body);
     h5 {
+        color: black;
+        font-family: 'Montserrat', sans-serif;
         font-size: 28px;
         margin: 25px 0;
         text-align: center;
     }
     p {
+        font-weight: 600;
         font-size: 20px;
         text-align: center;
     }
+}
+
+.last-text {
+   h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    margin-bottom: 200px;
+   } 
 }
 
 .rn-gallery.popup2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-direction: column;
 
+    h5 {
+        font-size: 20px;
+       
+    }
+
+    p {
+        font-size: 15px;
+    }
     img {
         height: 500px;
         width: 600px;

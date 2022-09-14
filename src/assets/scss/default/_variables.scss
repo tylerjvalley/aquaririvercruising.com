@@ -1,4 +1,5 @@
 /*-- Variables --*/
+@import url('https://fonts.googleapis.com/css2?family=Kreon:wght@500&family=Lato&family=Montserrat:wght@300&display=swap');
 :root {
     //Themes colors
     --color-primary: #50EBFF;
@@ -105,8 +106,8 @@
     --transition-transform: transform .65s cubic-bezier(.23,1,.32,1);
 
     //Font Family
-    --font-primary: 'Inter', sans-serif;
-    --secondary-font: 'Inter', sans-serif;
+    --font-primary: 'Montserrat', sans-serif;
+    --secondary-font: 'Lato', sans-serif;
     --font-awesome: 'Font Awesome 5 Pro';
 
 

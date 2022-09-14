@@ -10,6 +10,7 @@
 
 // Dark Style 
 body {
+    background-color: var(--color-white);
     &.light {
         background-color: var(--color-white);
         color: #65676b;

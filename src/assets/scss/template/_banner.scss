@@ -504,6 +504,15 @@
 
 // Slider Style 4 
 .slider-style-4 {
+    .home-logo {
+        @media (max-width: 991px) {
+            bottom: 30px !important;
+        }
+        @media (max-width: 776px) {
+            width: 277px;
+            height: 118px;
+        }
+    }
     .inner {
         padding-top: 80px;
 
@@ -515,29 +524,27 @@
             animation-fill-mode: both;
             animation-duration: 1s;
         }
+
+        
         .title {
             font-family: var(--font-primary);
             margin-bottom: 25px;
             display: block;
-            font-size: 60px;
+            font-size: 50px;
+            position: relative;
+            bottom: 50px;
             line-height: 1.1;
             transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
             color: var(--color-white);
+            font-size: 60px;
 
-            @media #{$lg-layout} {
-                font-size: 100px;
+            @media (max-width: 991px) {
+                font-size: 40px;
             }
 
-            @media #{$md-layout} {
-                font-size: 100px;
-            }
-
-            @media #{$sm-layout} {
-                font-size: 60px;
-            }
-
-            @media #{$large-mobile} {
-                font-size: 55px;
+            @media (max-width: 776px) {
+                font-size: 30px;
+                line-height: 40px;
             }
         }
 

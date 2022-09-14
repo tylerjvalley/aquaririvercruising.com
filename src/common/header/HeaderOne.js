@@ -31,7 +31,7 @@ const HeaderOne = ({btnStyle, HeaderSTyle}) => {
                             {/*<h1 style={{margin: "auto", fontSize: "36px"}}>Aquari</h1> */}
                             
                             <Logo 
-                                image={`${process.env.PUBLIC_URL}/images/logo/a-white.png`}
+                                image={`${process.env.PUBLIC_URL}/images/logo/a-black.png`}
                                 image2={`${process.env.PUBLIC_URL}/images/logo/a-black.png`}
                             />
                         </div> 
@@ -46,7 +46,7 @@ const HeaderOne = ({btnStyle, HeaderSTyle}) => {
                                         <span className="hamberger-button" onClick={onCanvasHandler}><FiMenu /></span>
                                     </div>
                                 </div>
-                                <Darkmode />
+                                
                             </div>  
                         </div>
                     </div>
