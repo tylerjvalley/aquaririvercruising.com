@@ -52,6 +52,7 @@ const PopupData = [
         id: "02",
         image: "images/service/friendsdoingthings.jpg",
         title: "The world has changed, it's time for a new travel style",
+        description: "Join and leave when and where you want, because Aquari is not a river cruise but river cruising"
     },
     {
         id: "03",
