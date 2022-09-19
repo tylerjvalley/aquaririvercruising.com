@@ -20,8 +20,8 @@ import BlogClassicData from '../data/blog/BlogList.json';
 const BannerData = [
     {
         image: "images/service/cologne-night.jpg",
-        title: "Imagine staying in one hotel that takes you to all of the top destinations in Europe without ever changing rooms.",
-        
+        title: "Imagine staying in a hotel that moves.",
+        description: "While you explore Europe your way"
     },
     {
         image: "images/service/relax.jpg",
