@@ -13,7 +13,7 @@ const AboutFour = ({image}) => {
                         <div className="content">
                             <div className="inner">
                                 <h3 className="title">Reasons To Float With Aquari</h3>
-                                <h4 className="title">You're not a tourist with us, you're a traveler.</h4>
+                                <h4 className="title second">You're not a tourist with us, you're a traveler.</h4>
                               
                                 <ul className="feature-list">
                                     <li>
@@ -24,7 +24,7 @@ const AboutFour = ({image}) => {
                                             <p className="text">- Made friends onland? <br/> Bring them on board for dinner or have a drink in the lounge.</p>
                                             <p className="text">- With our set sailing schedule, you know where we're going and you plan your exploration around it.</p>
                                             <p className="text">- Our Concierge can support you in planning your activities at each destination.</p>
-                                            <p className="text">- Aquari plans with local events in mind to get you the most out of you European discovery.</p>
+                                            <p className="text">- Your Aquari plans with local events in mind to get you the most out of you European discovery.</p>
                                         </div>
                                     </li>
                                 </ul>
