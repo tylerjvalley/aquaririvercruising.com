@@ -5,7 +5,7 @@ import React from 'react';
 const AboutFour = ({image}) => {
     return (
         <div className="about-area about-style-4 rn-section-gap">
-            <img style={{height: "600px", width: "100%", margin: "auto"}} src="/Aquari/images/service/basel.jpg" alt="basel" />
+            <img style={{height: "600px", width: "100%", margin: "auto"}} src="/images/service/basel.jpg" alt="basel" />
             <div className="container">
                 <div className="row m-auto align-items-center text-center">
                     <div className="col-lg-12 mt_md--40 mt_sm--40">
