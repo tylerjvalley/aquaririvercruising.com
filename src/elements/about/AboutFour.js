@@ -24,7 +24,7 @@ const AboutFour = ({image}) => {
                                             <p className="text">- Made friends onland? <br/> Bring them on board for dinner or have a drink in the lounge.</p>
                                             <p className="text">- With our set sailing schedule, you know where we're going and you plan your exploration around it.</p>
                                             <p className="text">- Our Concierge can support you in planning your activities at each destination.</p>
-                                            <p className="text">- Your Aquari plans with local events in mind to get you the most out of you European discovery.</p>
+                                            <p className="text">- Aquari plans with local events in mind, so you can get the most out of your European discovery.</p>
                                         </div>
                                     </li>
                                 </ul>
