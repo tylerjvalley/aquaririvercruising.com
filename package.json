@@ -91,7 +91,6 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "set PORT=3005 && node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js"
