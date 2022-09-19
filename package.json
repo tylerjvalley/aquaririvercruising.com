@@ -2,7 +2,7 @@
   "name": "aquari",
   "version": "0.1.0",
   "private": true,
-  "homepage": "www.aquaririvercruising.com",
+  "homepage": "aquiaririvercruising.com",
   "dependencies": {
     "@babel/core": "7.12.3",
     "@pmmmwh/react-refresh-webpack-plugin": "0.4.3",
@@ -93,7 +93,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "start": "set PORT=3005 && node scripts/start.js",
-    "build": "webpack",
+    "build": "react-scripts build",
     "test": "node scripts/test.js"
   },
   "eslintConfig": {
@@ -115,8 +115,7 @@
     ]
   },
   "devDependencies": {
-    "fslightbox-react": "^1.6.2",
-    "webpack-cli": "^4.10.0"
+    "fslightbox-react": "^1.6.2"
   },
   "cssnano": {
     "preset": [
