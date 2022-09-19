@@ -25,13 +25,12 @@ const BannerData = [
     },
     {
         image: "images/service/relax.jpg",
-        title: "Take control of how you want to travel.",
+        title: "Take control of how you want to travel",
         description: "Drift away from strict itineraries",
     },
     {
         image: "images/service/croissant.jpg",
-        title: "Don't want to pay more for luxurious views, and breakfast?",
-        description: "Well, don't. It's on us."
+        title: "Bed and Breakfast with luxurious views included!",
     },
     {
         image: "images/service/boatwithfriends.jpg",
