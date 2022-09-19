@@ -35,7 +35,7 @@ const BannerData = [
     {
         image: "images/service/boatwithfriends.jpg",
         title: "Even though travel therapy isn't covered by your insurance,",
-        description: "We've got you covered as soon as you step foot onto the boat."
+        description: "We've got you covered as soon as you step foot onto the ship."
     }
 ]
 
