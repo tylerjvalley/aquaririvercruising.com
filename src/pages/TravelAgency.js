@@ -44,25 +44,23 @@ const PopupData = [
     {
         id: "01",
         image: "images/service/have-your-coffee.jpg",
-        title: "Where you have your coffee is up to you.",
-        description: "Unpack once and have your hotel travel with you.",
-        description2: "Rather than constantly packing and finding a hotel"
+        title: "It is up to you where you want to dine",
+        description: "Have a meal at a coze restaurant in the center of town",
+        description2: "Or have a comfortable dinner in our on-board restaurant"
     },
     {
         id: "02",
         image: "images/service/friendsdoingthings.jpg",
         title: "It's your decision on",
-        description: "When and where you want to depart",
-        description2: "What events you want to participate in.",
-        description3: "How long you want to stay",
-        description4: "Where you want to explore"
+        description: "What events you want to participate in",
+        description2: "Where you want to explore"
     },
     {
         id: "03",
         image: "images/service/girl-traveling.jpg",
-        title: "Explore with Us",
-        description: "Aquari solves all the downsides to multi-city traveling while giving you affordable luxury and complete flexibility",
-        description2: "Cruise to the beat of your own adventure"
+        title: "Everyone has their own travel style",
+        description: "Aquari offers solutinons to multi-city traveling",
+        description2: "Travel to the beat of your own adventure"
     }
    
 ]

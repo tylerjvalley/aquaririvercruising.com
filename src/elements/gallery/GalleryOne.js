@@ -11,7 +11,7 @@ function GalleryOne({galleryItem}) {
             </div>
             <div className="container">
                 <h5>{title}</h5>
-                <p>{description}</p>
+                <p style={{color: "black"}}>{description}</p>
                 <a hidden={!link} href={link}><h4 className="mt-5" style={{textAlign: "center", color: "#0560B3", textDecoration: "underline"}}>{linkText}</h4></a>
             </div>
         </div>
