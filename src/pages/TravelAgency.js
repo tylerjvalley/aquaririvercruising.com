@@ -43,7 +43,7 @@ const BannerData = [
 const PopupData = [
     {
         id: "01",
-        image: "images/service/have-your-coffee.jpg",
+        image: "images/service/dining.jpg",
         title: "It is up to you where you want to dine",
         description: "Have a meal at a coze restaurant in the center of town",
         description2: "Or have a comfortable dinner in our on-board restaurant"
