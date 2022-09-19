@@ -93,7 +93,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "start": "set PORT=3005 && node scripts/start.js",
-    "build": "react-scripts build",
+    "build": "webpack",
     "test": "node scripts/test.js"
   },
   "eslintConfig": {
@@ -115,7 +115,8 @@
     ]
   },
   "devDependencies": {
-    "fslightbox-react": "^1.6.2"
+    "fslightbox-react": "^1.6.2",
+    "webpack-cli": "^4.10.0"
   },
   "cssnano": {
     "preset": [
