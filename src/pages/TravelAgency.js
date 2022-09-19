@@ -151,7 +151,7 @@ const TravelAgency = () => {
                     <div className="container">
                         <div className="row mt_dec--30 row--15">
                             {PopupData.map((item) => (
-                                <div className="col-lg-4 col-12 mt--30" key={item.id}>
+                                <div className="col-lg-4 col-md-6 col-12 mt--30" key={item.id}>
                                     {/* images: 1270 x 950 */}
                                     <Gallery galleryItem={item} />
                                 </div>
