@@ -1,20 +1,15 @@
 import React from 'react';
 import SEO from "../common/SEO";
-import {Link} from "react-router-dom";
-import { FiArrowRight, FiCheck } from "react-icons/fi";
+
+import { FiArrowRight } from "react-icons/fi";
 
 import HeaderOne from '../common/header/HeaderOne';
-import HeaderTopNews from '../common/header/HeaderTopNews';
-import FooterTwo from '../common/footer/FooterTwo';
+
 import Copyright from '../common/footer/Copyright';
 
-import ServiceOne from '../elements/service/ServiceOne';
+
 import Separator from "../elements/separator/Separator";
-import SectionTitle from "../elements/sectionTitle/SectionTitle";
-import SlpitOne from "../elements/split/SlpitOne";
-import PortfolioOne from "../elements/portfolio/PortfolioOne";
-import TeamFour from "../elements/team/TeamFour";
-import BrandTwo from "../elements/brand/BrandTwo";
+
 import ScrollAnimation from "react-animate-on-scroll";
 
 

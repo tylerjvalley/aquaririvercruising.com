@@ -1,8 +1,7 @@
 import React from 'react';
 import SEO from "../../common/SEO";
 import Layout from "../../common/Layout";
-import HeaderOne from "../../common/header/HeaderOne";
-import FooterOne from "../../common/footer/FooterOne";
+
 import BreadcrumbOne from "../breadcrumb/BreadcrumbOne";
 import SectionTitle from "../sectionTitle/SectionTitle";
 import ServiceOne from "./ServiceOne";

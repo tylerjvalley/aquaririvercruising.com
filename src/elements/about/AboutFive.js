@@ -25,7 +25,7 @@ const AboutFive = () => {
                                             <li><FiMapPin /> Dhaka, Bangladesh</li>
                                         </ul>
                                         <div className="download-button mt--20">
-                                            <a className="btn-read-more" href="#"><span>Download My CV</span></a>
+                                            <span>Download My CV</span>
                                         </div>
                                     </div>
                                 </div>

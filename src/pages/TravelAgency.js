@@ -1,25 +1,21 @@
 import React from "react";
 import SEO from "../common/SEO";
-import {Link} from "react-router-dom";
 
-import HeaderTopNews from '../common/header/HeaderTopNews';
+
+
 import HeaderOne from '../common/header/HeaderOne';
-import FooterTwo from '../common/footer/FooterTwo';
+
 import Copyright from '../common/footer/Copyright';
 import Slider from "react-slick";
 import { BannerActivation } from "../utils/script";
 import Separator from "../elements/separator/Separator";
-import SectionTitle from "../elements/sectionTitle/SectionTitle";
-import ServiceOne from '../elements/service/ServiceOne';
-import AboutOne from '../elements/about/AboutOne';
-import AboutTwo from '../elements/about/AboutTwo';
+
 import AboutFour from '../elements/about/AboutFour';
 import GalleryOne from "../elements/gallery/GalleryOne";
 import Gallery from "../elements/gallery/Gallery";
-import TestimonialThree from "../elements/testimonial/TestimonialThree";
-import BlogList from "../components/blog/itemProp/BlogList";
+
 import BlogClassicData from '../data/blog/BlogList.json';
-var BlogListData = BlogClassicData.slice(0, 3);
+
 
 const BannerData = [
     {

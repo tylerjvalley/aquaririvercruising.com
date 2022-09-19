@@ -1,6 +1,6 @@
 import React from 'react'
 import SEO from "../common/SEO";
-import {Link} from "react-router-dom";
+
 import { FiArrowRight } from "react-icons/fi";
 import HeaderTopNews from '../common/header/HeaderTopNews';
 import HeaderTwo from '../common/header/HeaderTwo';

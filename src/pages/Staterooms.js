@@ -10,8 +10,7 @@ import CounterUpFour from "../elements/counterup/CounterUpFour";
 import TeamFour from "../elements/team/TeamFour";
 import TimelineTwo from "../elements/timeline/TimelineTwo";
 import Separator from "../elements/separator/Separator";
-import Slider from "react-slick";
-import { BannerActivation } from "../utils/script";
+
 import Carousel from 'react-bootstrap/Carousel';
 
 

@@ -14,7 +14,7 @@ import BrandThree from '../elements/brand/BrandThree';
 import TeamThree from '../elements/team/TeamThree';
 import PricingTwo from '../elements/pricing/PricingTwo';
 
-import {Link} from "react-router-dom";
+
 import { FiArrowRight } from "react-icons/fi";
 import BlogList from "../components/blog/itemProp/BlogList";
 import BlogClassicData from '../data/blog/BlogList.json';

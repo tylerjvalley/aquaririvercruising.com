@@ -1,17 +1,6 @@
 import React from 'react';
-import VideoTwo from '../video/VideoTwo';
-import { BiWater } from "react-icons/bi";
-import { FcLandscape } from "react-icons/fc";
 
-const PopupData = [
-    {
-        id: "01",
-        image: "images/blog/mountains.jpg",
-        popupLink: [
-            'https://www.youtube.com/watch?v=RJWk32Flsps',
-        ],
-    }
-]
+
 
 const AboutFour = ({image}) => {
     return (

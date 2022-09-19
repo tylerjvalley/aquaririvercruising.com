@@ -1,8 +1,7 @@
 import React from 'react';
 import {
     CircularProgressbar,
-    CircularProgressbarWithChildren,
-    buildStyles
+  
   } from "react-circular-progressbar";
 import { easeQuadInOut } from "d3-ease";
 import 'react-circular-progressbar/dist/styles.css';

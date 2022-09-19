@@ -1,6 +1,6 @@
 import React from 'react'
 import SEO from "../common/SEO";
-import {Link} from "react-router-dom";
+
 import HeaderTwo from '../common/header/HeaderTwo';
 import FooterFour from '../common/footer/FooterFour';
 

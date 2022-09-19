@@ -85,7 +85,7 @@ const TabThree = () => {
                                                                     <h4 className="title">How can we help you?</h4>
                                                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero ea sint nihil corrupti! Harum nemo eius odio.</p>
                                                                     <div className="read-more">
-                                                                        <a className="btn-default btn-small" href="#">Read More</a>
+                                                                       
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -125,7 +125,7 @@ const TabThree = () => {
                                                                     <h4 className="title">Whice Service Provided?</h4>
                                                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero ea sint nihil corrupti! Harum nemo eius odio.</p>
                                                                     <div className="read-more">
-                                                                        <a className="btn-default btn-small" href="#">Read More</a>
+                                                                        
                                                                     </div>
                                                                 </div>
                                                             </div>

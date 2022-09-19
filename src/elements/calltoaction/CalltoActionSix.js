@@ -18,7 +18,7 @@ const CalltoActionSix = () => {
                     </div>
                     <div className="col-lg-4 col-12">
                         <div className="call-to-btn text-start text-lg-right mt_md--20 mt_sm--20">
-                            <a className="btn-default" href="#">{callToActionData.btnText}</a>
+                             {/* <a className="btn-default btn-icon" href="#">{callToActionData.btnText} <i className="icon"><FiArrowRight /></i></a> */}
                         </div>
                     </div>
                 </div>

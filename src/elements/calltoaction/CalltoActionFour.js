@@ -19,7 +19,7 @@ const CalltoActionFour = () => {
                     </div>
                     <div className="col-lg-4">
                         <div className="call-to-btn text-start text-lg-right">
-                            <a className="btn-default" href="#">{callToActionData.btnText}</a>
+                              {/* <a className="btn-default btn-icon" href="#">{callToActionData.btnText} <i className="icon"><FiArrowRight /></i></a> */}
                         </div>
                     </div>
                 </div>

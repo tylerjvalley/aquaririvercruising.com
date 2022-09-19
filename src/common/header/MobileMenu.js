@@ -15,9 +15,9 @@ const MobileMenu = ({show, onClose}) => {
         }
     }
 
-    for(var i in elementsTwo) {
-        if(elementsTwo.hasOwnProperty(i)) {
-            elementsTwo[i].onclick = function() {
+    for(var e in elementsTwo) {
+        if(elementsTwo.hasOwnProperty(e)) {
+            elementsTwo[e].onclick = function() {
                 this.parentElement.querySelector('.rn-megamenu').classList.toggle("active");
                 this.classList.toggle("open");
             }

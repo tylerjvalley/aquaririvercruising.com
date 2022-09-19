@@ -1,6 +1,5 @@
 import React from 'react';
 import ScrollAnimation from "react-animate-on-scroll";
-import { FiArrowRight } from "react-icons/fi";
 
 const callToActionData = {
     title: "Ready to start creating a standard website?",
@@ -34,7 +33,7 @@ const CalltoActionFive = () => {
                                 animateOut="fadeInOut"
                                 animateOnce={true}>
                                     <div className="call-to-btn text-center">
-                                        <a className="btn-default btn-icon" href="#">{callToActionData.btnText} <i className="icon"><FiArrowRight /></i></a>
+                                       {/* <a className="btn-default btn-icon" href="#">{callToActionData.btnText} <i className="icon"><FiArrowRight /></i></a> */}
                                     </div>
                                 </ScrollAnimation>
                             </div>
