@@ -3,7 +3,7 @@
 [build]
   base    = ""
   publish = "build/"
-  command = "react-scripts build"
+  command = "npm run build"
 
 [[redirects]]
   from = "/*"
