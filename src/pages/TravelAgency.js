@@ -51,9 +51,7 @@ const PopupData = [
     {
         id: "02",
         image: "images/service/friendsdoingthings.jpg",
-        title: "It's your decision on",
-        description: "What events you want to participate in",
-        description2: "Where you want to explore"
+        title: "The world has changed, it's time for a new travel style",
     },
     {
         id: "03",
