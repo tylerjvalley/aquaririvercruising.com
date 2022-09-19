@@ -6,9 +6,9 @@ const SEO = ( {title} ) => {
     return (
         <>
             <meta charSet="utf-8" />
-            <title>{title} || Doob Business & Finance React JS Template</title>
+            <title>{title} River Cruising</title>
             <meta name="robots" content="noindex, follow" />
-            <meta name="description" content="Doob – Business & Finance React JS Template" />
+            <meta name="description" content="Aquari River Cruising" />
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         </>
     )
