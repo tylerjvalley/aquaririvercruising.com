@@ -18,20 +18,16 @@
     }
 
     .feature-list {
+        width: 420px;
         padding: 0;
-        margin: 0;
-        list-style: none;
+        margin: 3em auto;
+        @media (max-width: 440px) {
+            width: 75%;
+        }
         li {
-            display: flex;
-            .icon {
-                background: var(--color-primary);
-                width: 30px;
-                height: 30px;
-                border-radius: 100%;
-                color: var(--color-white);
-                text-align: center;
-                min-width: 30px;
-            }
+            list-style: disc;
+            color: black;
+            font-weight: 600;
             .title-wrapper {
                 margin-left: 13px;
                 .title {

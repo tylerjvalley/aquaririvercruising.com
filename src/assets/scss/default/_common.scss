@@ -436,29 +436,6 @@
    
     .feature-list {
         text-align: left;
-        margin-left: 350px !important;
-        @media (max-width: 1399px) {
-            margin-left: 250px !important;
-        }
-
-        @media (max-width: 1199px) {
-            margin-left: 160px !important;
-        }
-
-        @media (max-width: 991px) {
-            margin-left: 100px !important;
-        }
-
-        @media (max-width: 767px) {
-            margin-left: 42px !important;
-            width: 100% !important;
-        }
-
-        @media (max-width: 457px) {
-            .title-wrapper {
-                margin-left: 0 !important;
-            }
-        }
         
         p {
             color: var(--color-body) !important;
