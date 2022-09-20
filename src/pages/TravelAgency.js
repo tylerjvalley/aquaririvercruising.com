@@ -21,7 +21,7 @@ const BannerData = [
     {
         image: "images/service/cologne-night.jpg",
         title: "Imagine staying in a hotel that moves",
-        description: "While you explore Europe your way"
+        description: "while you explore Europe your way"
     },
     {
         image: "images/service/relax.jpg",
@@ -35,7 +35,7 @@ const BannerData = [
     {
         image: "images/service/boatwithfriends.jpg",
         title: "Even though travel therapy isn't covered by your insurance,",
-        description: "We've got you covered as soon as you step foot onto the ship."
+        description: "we've got you covered as soon as you step foot onto the ship."
     }
 ]
 
@@ -45,7 +45,7 @@ const PopupData = [
         id: "01",
         image: "images/service/dining.jpg",
         title: "It is up to you where you want to dine",
-        description: "Have a meal at a coze restaurant in the center of town",
+        description: "Have a meal at a cozy restaurant in the center of town",
         description2: "Or have a comfortable dinner in our on-board restaurant"
     },
     {
@@ -57,8 +57,8 @@ const PopupData = [
     {
         id: "03",
         image: "images/service/girl-traveling.jpg",
-        title: "Everyone has their own travel style",
-        description: "Aquari offers solutinons to multi-city traveling",
+        title: "Everyone has their own idea of exploration",
+        description: "Aquari offers solutions to multi-city traveling",
         description2: "Travel to the beat of your own adventure"
     }
    
