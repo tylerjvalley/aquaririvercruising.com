@@ -34,8 +34,8 @@ const BannerData = [
     },
     {
         image: "images/service/boatwithfriends.jpg",
-        title: "Even though travel therapy isn't covered by your insurance,",
-        description: "we've got you covered as soon as you step foot onto the ship."
+        title: "Stepping on to this ship is better than therapy.",
+        description: "Travel changes us in more ways than we realize. We've got you covered as soon as you step on the ship."
     }
 ]
 
@@ -50,7 +50,7 @@ const PopupData = [
     },
     {
         id: "02",
-        image: "images/service/friendsdoingthings.jpg",
+        image: "images/service/friends-pexels.jpg",
         title: "The world has changed, it's time for a new travel style",
         description: "Join and leave when and where you want, because Aquari is not a river cruise but river cruising"
     },
