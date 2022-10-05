@@ -16,16 +16,16 @@ const Nav = () => {
 
     return (
         <ul className={`${headerClasses}`}>
-            <li><Link to="/Aquari/">Home</Link></li> 
+            <li><Link to="/">Home</Link></li> 
             
             <li className="has-droupdown"><Link to="#">About Us</Link>
                 <ul className="submenu">
-                    <li><Link to="/Aquari/our-mission">Our Mission</Link></li>
-                    <li><Link to="/blog-grid">Crew and Team</Link></li>
-                    <li><Link to="/Aquari/accomodations">Accomodations</Link></li>
+                    <li><Link to="/our-mission">Our Mission</Link></li>
+                    {/*<li><Link to="/blog-grid">Crew and Team</Link></li> */}
+                    <li><Link to="/accomodations">Accomodations</Link></li>
                 </ul>
             </li>
-            <li><Link to="/Aquari/leisure-travel">Sailing Schedule</Link></li> 
+            <li><Link to="/sailing-schedule">Sailing Schedule</Link></li> 
             {/*<li><Link to="/Aquari/business-travel">Business Travel</Link></li> 
             <li><Link to="/Aquari/leisure-travel">Leisure Travel</Link></li> 
             <li><Link to="#">Map</Link></li>
