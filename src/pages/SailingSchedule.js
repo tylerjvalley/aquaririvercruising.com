@@ -25,33 +25,111 @@ const localizer = dateFnsLocalizer({
 
 const myEventsList = [
     {
-        title: "Holland Festival Oude Muziek",
+        title: "Düsseldorf",
         allDay: true,
-        start: new Date(2023, 8, 25),
-        end: new Date(2023, 9, 2)
+        start: new Date(2023, 3, 1),
+        end: new Date(2023, 3, 4),
     },
     {
-        title: "Open Monument Day",
+        title: "Helene Fischer Concert Cologne",
         allDay: true,
-        start: new Date(2023, 9, 9),
-        end: new Date(2023, 9, 11)
+        start: new Date(2023, 3, 1),
+        end: new Date(2023, 3, 3)
     },
     {
-        title: "Europort RotterDam",
+        title: "Beauty Düsseldorf",
         allDay: true,
-        start: new Date(2023, 11, 7),
-        end: new Date(2023, 11, 11)
+        start: new Date(2023, 3, 1),
+        end: new Date(2023, 3, 3)
     },
     {
-        title: "Leiden / Valkenburg Christmas Town",
+        title: "Top Hair Düsseldorf",
         allDay: true,
-        start: new Date(2023, 11, 7),
-        end: new Date(2023, 11, 11)
+        start: new Date(2023, 3, 1),
+        end: new Date(2023, 3, 3)
+    },
+    {
+        title: "Post Marathon Bonn",
+        allDay: true,
+        start: new Date(2023, 3, 1),
+        end: new Date(2023, 3, 1)
+    },
+    {
+        title: "Rotterdam",
+        allDay: true,
+        start: new Date(2023, 3, 4),
+        end: new Date(2023, 3, 6)
+    },
+    {
+        title: "Keukenhof / Leiden",
+        allDay: true,
+        start: new Date(2023, 3, 4),
+        end: new Date(2023, 3, 6)
+    },
+    {
+        title: "The Hague",
+        allDay: true,
+        start: new Date(2023, 3, 4),
+        end: new Date(2023, 3, 4)
+    },
+    {
+        title: "Scheveningen",
+        allDay: true,
+        start: new Date(2023, 3, 4),
+        end: new Date(2023, 3, 4)
+    },
+    {
+        title: "Delft",
+        allDay: true,
+        start: new Date(2023, 3, 4),
+        end: new Date(2023, 3, 4)
+    },
+    {
+        title: "Haarlem",
+        allDay: true,
+        start: new Date(2023, 3, 5),
+        end: new Date(2023, 3, 5)
+    },
+    {
+        title: "Zaanse Schans",
+        allDay: true,
+        start: new Date(2023, 3, 5),
+        end: new Date(2023, 3, 5)
+    },
+    {
+        title: "Amsterdam",
+        allDay: true,
+        start: new Date(2023, 3, 5),
+        end: new Date(2023, 3, 7)
+    },
+    {
+        title: "Enkhuizen",
+        allDay: true,
+        start: new Date(2023, 3, 6),
+        end: new Date(2023, 3, 8)
+    },
+    {
+        title: "Harlingen",
+        allDay: true,
+        start: new Date(2023, 3, 8),
+        end: new Date(2023, 3, 8)
+    },
+    {
+        title: "Franeker",
+        allDay: true,
+        start: new Date(2023, 3, 8),
+        end: new Date(2023, 3, 8)
+    },
+    {
+        title: "Leeuwarden",
+        allDay: true,
+        start: new Date(2023, 3, 8),
+        end: new Date(2023, 3, 8)
     },
 
 ]
 
-const allViews = Object.keys(Calendar, )
+
 
 
 const SailingSchedule = () => {
@@ -60,14 +138,14 @@ const SailingSchedule = () => {
             <SEO title="About Us" />
             <main className="page-wrapper">
                 <HeaderOne btnStyle="btn-small" />
-                <div style={{height: 700, margin: "70px"}}>
+                <div style={{height: 1000, margin: "70px"}}>
                     <Calendar 
                         localizer={localizer}
                         events={myEventsList}
                         startAccessor="start"
                         endAccessor="end"
                         step={60}
-                        defaultDate={new Date(2023, 9, 1)}
+                        defaultDate={new Date(2023, 3, 1)}
                     />
                 </div>
                 
