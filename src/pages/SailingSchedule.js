@@ -124,8 +124,136 @@ const myEventsList = [
         title: "Leeuwarden",
         allDay: true,
         start: new Date(2023, 3, 8),
-        end: new Date(2023, 3, 8)
+        end: new Date(2023, 3, 10)
     },
+    {
+        title: "Lemmer",
+        allDay: true,
+        start: new Date(2023, 3, 9),
+        end: new Date(2023, 3, 9)
+    },
+    {
+        title: "Kampen",
+        allDay: true,
+        start: new Date(2023, 3, 9),
+        end: new Date(2023, 3, 11)
+    },
+    {
+        title: "Deventer",
+        allDay: true,
+        start: new Date(2023, 3, 10),
+        end: new Date(2023, 3, 10)
+    },
+    {
+        title: "Doesburg",
+        allDay: true,
+        start: new Date(2023, 3, 10),
+        end: new Date(2023, 3, 10)
+    },
+    {
+        title: "Arnhem",
+        allDay: true,
+        start: new Date(2023, 3, 10),
+        end: new Date(2023, 3, 12)
+    },
+    {
+        title: "Rotterdam",
+        allDay: true,
+        start: new Date(2023, 3, 11),
+        end: new Date(2023, 3, 11)
+    },
+    {
+        title: "Nijmegen",
+        allDay: true,
+        start: new Date(2023, 3, 12),
+        end: new Date(2023, 3, 12)
+    },
+    {
+        title: "Köln",
+        allDay: true,
+        start: new Date(2023, 3, 13),
+        end: new Date(2023, 3, 16)
+    },
+    {
+        title: "Nijmegen",
+        allDay: true,
+        start: new Date(2023, 3, 16),
+        end: new Date(2023, 3, 16)
+    },
+    {
+        title: "Antwerp",
+        allDay: true,
+        start: new Date(2023, 3, 17),
+        end: new Date(2023, 3, 21)
+    },
+    {
+        title: "Brussels",
+        allDay: true,
+        start: new Date(2023, 3, 20),
+        end: new Date(2023, 3, 22)
+    },
+    {
+        title: "Rotterdam",
+        allDay: true,
+        start: new Date(2023, 3, 22),
+        end: new Date(2023, 3, 24)
+    },
+    {
+        title: "Nijmegen",
+        allDay: true,
+        start: new Date(2023, 3, 23),
+        end: new Date(2023, 3, 23)
+    },
+    {
+        title: "Köln",
+        allDay: true,
+        start: new Date(2023, 3, 24),
+        end: new Date(2023, 3, 26)
+    },
+    {
+        title: "Nijmegen",
+        allDay: true,
+        start: new Date(2023, 3, 26),
+        end: new Date(2023, 3, 26)
+    },
+    {
+        title: "Rotterdam",
+        allDay: true,
+        start: new Date(2023, 3, 26),
+        end: new Date(2023, 3, 28)
+    },
+    {
+        title: "Amsterdam",
+        allDay: true,
+        start: new Date(2023, 3, 27),
+        end: new Date(2023, 3, 30)
+    },
+    {
+        title: "Leystad",
+        allDay: true,
+        start: new Date(2023, 3, 29),
+        end: new Date(2023, 3, 29)
+    },
+    {
+        title: "Enkhuizen",
+        allDay: true,
+        start: new Date(2023, 3, 29),
+        end: new Date(2023, 3, 29)
+    },
+    {
+        title: "Rotterdam",
+        allDay: true,
+        start: new Date(2023, 3, 30),
+        end: new Date(2023, 3, 30)
+    },
+    {
+        title: "Brussels",
+        allDay: true,
+        start: new Date(2023, 3, 31),
+        end: new Date(2023, 3, 31)
+    },
+    
+
 
 ]
 

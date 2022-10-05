@@ -61,7 +61,7 @@ const OurMission = () => {
                             <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="thumbnail image-left-content">
                                     {/* 945 x 709 */}
-                                    <img src="./images/service/river-cruising.png" alt="split Images" />
+                                    <img src="./images/service/crew.jpg" alt="split Images" />
                                 </div>
                             </div>
                             <div className="col-lg-12 col-xl-6 col-12">
