@@ -34,8 +34,8 @@ const BannerData = [
     },
     {
         image: "images/service/boatwithfriends.jpg",
-        title: "Stepping on to this ship is better than therapy.",
-        description: "Travel changes us in more ways than we realize. We've got you covered as soon as you step on the ship."
+        title: "Travel changes us in more ways than you realize.",
+        description: "We've got you covered as soon as you step on the ship."
     }
 ]
 
@@ -70,7 +70,7 @@ const PopupData2 = [
         image: "images/service/strasbourg-with-peeps.jpg",
         //linkText: "Meet our team and crew!"
         title: "Traveling is peace",
-        description: "Here at Aquari we believe that traveling not only brings peace to our lives, at the same time it allows us to see people in a different perspective. Traveling allows you to expand your horizons, see how other people live their lives in these wonderful cultures that everyone deserves to experience. This understanding is the underlying cause for respect towards others and “peace” in this world."
+        description: "Here at Aquari we believe that traveling not only brings peace to our lives, it allows us to see people in a different perspective. Traveling allows you to expand your horizons, see how other people live their lives, and experience these wonderful cultures. This understanding is the underlying cause for respect towards others and “peace” in this world."
     },
     
 ]
