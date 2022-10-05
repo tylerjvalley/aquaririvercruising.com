@@ -27,20 +27,21 @@ const OurMission = () => {
                         <div className="row align-items-center">
                             <div className="col-lg-7 col-xl-6 order-2 order-lg-1 mt_md--40 mt_sm--40">
                                 <div className="inner text-start">
-                                    <h1 className="title theme-gradient display-one">Tourism = Peace</h1>
+                                    <h1 className="title theme-gradient display-one">Our Mission</h1>
                                     <ul className="list-icon">
-                                        <li>We strongly believe that tourism and peace go hand in hand.</li>
-                                        <li>Visiting other countries, expanding ones personal horizon, understanding other peoples, their cultures and the environment, leaving one's own comfort zone fosters understanding and respect - two key ingrediends for peace in this world.</li>
+                                        <li style={{color: "black", fontWeight: 600}}>Our mission at Aquari is to give you the experience of a lifetime.</li>
+                                        <li style={{color: "black", fontWeight: 600}}>We believe in giving you the best quality vacation you can receive. The memories you create will last forever. At Aquari we care about every place we dock at it. We love being there for the communities we travel to. Our goal is to have the locals view us as part of their community. </li>
                                     </ul>
+                                    {/*}
                                     <div className="button-group mt--40">
                                         <a className="btn-default btn-medium round btn-icon" target="_blank" href="https://themeforest.net/checkout/from_item/33571911?license=regular">Book Now <i className="icon"><FiArrowRight /></i></a>
                                         
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                             <div className="col-lg-5 col-xl-6 order-1 order-lg-2">
                                 <div className="frame-image">
-                                    <img src="./images/service/tourism-peace.png" alt="Banner Images" />
+                                    <img src="./images/service/river-cruising.png" alt="Banner Images" />
                                 </div>
                             </div>
                         </div>
@@ -60,7 +61,7 @@ const OurMission = () => {
                             <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="thumbnail image-left-content">
                                     {/* 945 x 709 */}
-                                    <img src="./images/service/river-cruising.png" alt="split Images" />
+                                    <img src="./images/service/crew.jpg" alt="split Images" />
                                 </div>
                             </div>
                             <div className="col-lg-12 col-xl-6 col-12">
@@ -69,14 +70,15 @@ const OurMission = () => {
                                     animateIn="fadeInUp"
                                     animateOut="fadeInOut"
                                     animateOnce={true}>
-                                        <h4 className="title">River Cruising...</h4>
+                                        <h4 className="title">Our staff</h4>
                                     </ScrollAnimation>
                                     <ScrollAnimation 
                                     animateIn="fadeInUp"
                                     animateOut="fadeInOut"
                                     animateOnce={true}>
-                                    <p className="description">...is a fantastic way for all who want to see a good part of Europe and do not want to waste time with packing, transferring, checking-in and unpacking</p>
-                                    <p className="mt-2 description">But to do it once and then enjoy the exclusive comfort of a hotel room moving them from town to town. And allowing more "me"-time there!</p>
+                                    <p className="description">The staff at Aquari is well equipped with veterans when it comes to the river cruising industry. Our staff has an abundance of knowledge about river cruising.</p>
+                                    <p className="mt-2 description">We have decided it’s time to be different. We want to take you on a journey that you will never forget. A journey that is built around the desires and interests that you have. We are here to fulfill those dreams.
+</p>
                                     </ScrollAnimation>
                                 </div>
                             </div>
@@ -92,7 +94,7 @@ const OurMission = () => {
                             <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="thumbnail image-left-content">
                                     {/* 945 x 709 */}
-                                    <img src="./images/service/aquarius.png" alt="split Images" />
+                                    <img src="./images/service/tourism-peace.png" alt="split Images" />
                                 </div>
                             </div>
                             <div className="col-lg-12 col-xl-6 col-12">
@@ -101,17 +103,16 @@ const OurMission = () => {
                                     animateIn="fadeInUp"
                                     animateOut="fadeInOut"
                                     animateOnce={true}>
-                                        <h4 className="title">The Spirit of Aquarius</h4>
+                                        <h4 className="title">Tourism is Peace</h4>
                                     </ScrollAnimation>
                                     <ScrollAnimation 
                                     animateIn="fadeInUp"
                                     animateOut="fadeInOut"
                                     animateOnce={true}>
-                                    <p className="description">All of us, who stand behind the idea of Aquari, are veterans when it comes to river cruising.</p>
-                                    <p className="mt-2 description">We have experienced how this industry works, and we came to the conclusion that we want to be different.</p>
-                                    <p className="mt-2 description">The time seems right to launch a project that is truly built around the interests and the desires of you! - a product that resonates with you, that is in line with the destinations
-                                    we call, and with people aboard and ashore! We want to take you on a journey that is inspiring...</p>
-                                    <p className="mt-2 description">This is the dawning of the age of Aquari!</p>
+                                    <p className="description">We are full believers that tourism and peace work in harmony together. When you’re able to visit other countries it means that there is peace within that country.</p>
+                                    <p className="mt-2 description">Where there is tourism, there is peace. Experiencing different cultures, seeing other places, branching out and expanding your horizon allows you to respect and understand the places you’re visiting in a new light.
+</p>
+                                    
                                     </ScrollAnimation>
                                 </div>
                             </div>
@@ -129,7 +130,7 @@ const OurMission = () => {
                             <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="thumbnail image-left-content">
                                     {/* 945 x 709 */}
-                                    <img src="./images/service/sustainability.png" alt="split Images" />
+                                    <img src="./images/service/scenery.jpg" alt="split Images" />
                                 </div>
                             </div>
                             <div className="col-lg-12 col-xl-6 col-12">
@@ -156,75 +157,14 @@ const OurMission = () => {
                 </div>
                 {/* End Service Area  */}
 
-                <Separator />
+              
 
-                <div className="rn-splite-style mt-5 px-5">
-                    <div className="split-wrapper">
-                        <div className="row no-gutters radius-10 align-items-center">
-                            <div className="col-lg-12 col-xl-6 col-12">
-                                <div className="thumbnail image-left-content">
-                                    {/* 945 x 709 */}
-                                    <img src="./images/service/impact.png" alt="split Images" />
-                                </div>
-                            </div>
-                            <div className="col-lg-12 col-xl-6 col-12">
-                                <div className="split-inner">
-                                    <ScrollAnimation 
-                                    animateIn="fadeInUp"
-                                    animateOut="fadeInOut"
-                                    animateOnce={true}>
-                                        <h4 className="title">We will have an impact!</h4>
-                                    </ScrollAnimation>
-                                    <ScrollAnimation 
-                                    animateIn="fadeInUp"
-                                    animateOut="fadeInOut"
-                                    animateOnce={true}>
-                                    <p className="description">We see ourselves as a vision-leader among equals. Many of our partners in this project, we call friends. A good number of our staff and crew followed us to Aquari, as they share our passion and our vision of hospitality on rivers.</p>
-                                    <p className="mt-2 description">Does this sound a bit altruistic and flower power? Rather than dictating conditions we prefer to mediate agreements.</p>
-                                    <p className="mt-2 description">After all, <strong>this is the age of Aquarius</strong></p>
-                                    </ScrollAnimation>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
 
                 <Separator />
 
-                <div className="rn-splite-style mt-5 px-5">
-                    <div className="split-wrapper">
-                        <div className="row no-gutters radius-10 align-items-center">
-                            <div className="col-lg-12 col-xl-6 col-12">
-                                <div className="thumbnail image-left-content">
-                                    {/* 945 x 709 */}
-                                    <img src="./images/service/whats-in-there.png" alt="split Images" />
-                                </div>
-                            </div>
-                            <div className="col-lg-12 col-xl-6 col-12">
-                                <div className="split-inner">
-                                    <ScrollAnimation 
-                                    animateIn="fadeInUp"
-                                    animateOut="fadeInOut"
-                                    animateOnce={true}>
-                                        <h4 className="title">What's in there for you?</h4>
-                                    </ScrollAnimation>
-                                    <ScrollAnimation 
-                                    animateIn="fadeInUp"
-                                    animateOut="fadeInOut"
-                                    animateOnce={true}>
-                                    <p className="description">We are die hard believers that the quality of a vacation can only be measured in memories that last 
-                                    way beyond the end of the trip.</p>
-                                    <p className="mt-2 description">By the way memories are a result of experiences. The more direct, the purer, the more authentic - the more emotionally energizing the outcome will be.</p>
-                                    <p className="mt-2 description">Many Aquari travellers have a desire for unfiltered, unbiased and tabgible authenticity.</p>
-                                    <p className="mt-2 description">We are there to help you make a dream come trye - give us a chance!</p>
-                                    </ScrollAnimation>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <Separator />
+             
 
                 <div className="rn-splite-style mt-5 px-5">
                     <div className="split-wrapper">

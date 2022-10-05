@@ -29,13 +29,14 @@ const Accomodations = () => {
                                 <div className="inner text-start">
                                     <h1 className="title theme-gradient display-one">Accomodations</h1>
                                     <ul className="list-icon">
-                                        <li><span className="icon"></span> Our ship is in a class of its own!</li>
-                                        <li><span className="icon"></span> Take a look at our rooms and the different parts of the ship</li>
+                                        <li style={{color: "black", fontWeight: 600}}>Our ship is in a class of its own!</li>
+                                        <li style={{color: "black", fontWeight: 600}}>Take a look at our rooms and the different parts of the ship</li>
                                     </ul>
+                                    {/*}
                                     <div className="button-group mt--40">
                                         <a className="btn-default btn-medium round btn-icon" target="_blank" href="https://themeforest.net/checkout/from_item/33571911?license=regular">Book Now <i className="icon"><FiArrowRight /></i></a>
                                         
-                                    </div>
+    </div> */}
                                 </div>
                             </div>
                             <div className="col-lg-5 col-xl-6 order-1 order-lg-2">
