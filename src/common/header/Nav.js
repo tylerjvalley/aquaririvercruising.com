@@ -1,9 +1,21 @@
-import React from 'react';
+import React, {useState, useRef} from 'react';
 import {Link} from "react-router-dom";
+import useStickyHeader from "./useStickyHeader";
 
 const Nav = () => {
+
+    const [ofcanvasShow, setOffcanvasShow] = useState(false);
+    const onCanvasHandler = () => {
+        setOffcanvasShow(prev => !prev);
+    }
+    const ref = useRef();
+    let [check] = useState(true);
+    const sticky = useStickyHeader( 50 );
+    const headerClasses = `mainmenu ${(sticky && check) ? 'scrolled' : ''}`
+    
+
     return (
-        <ul className="mainmenu">
+        <ul className={`${headerClasses}`}>
             <li><Link to="/Aquari/">Home</Link></li> 
             
             <li className="has-droupdown"><Link to="#">About Us</Link>
@@ -13,10 +25,11 @@ const Nav = () => {
                     <li><Link to="/Aquari/accomodations">Accomodations</Link></li>
                 </ul>
             </li>
-            <li><Link to="/Aquari/business-travel">Business Travel</Link></li> 
+            <li><Link to="/Aquari/leisure-travel">Sailing Schedule</Link></li> 
+            {/*<li><Link to="/Aquari/business-travel">Business Travel</Link></li> 
             <li><Link to="/Aquari/leisure-travel">Leisure Travel</Link></li> 
             <li><Link to="#">Map</Link></li>
-            <li><Link to="#">Booking</Link></li> 
+            <li><Link to="#">Booking</Link></li> *}
             
 
 

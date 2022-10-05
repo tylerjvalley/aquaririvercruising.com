@@ -15,6 +15,7 @@ const HeaderOne = ({btnStyle, HeaderSTyle}) => {
     let [check] = useState(true);
     const sticky = useStickyHeader( 50 );
     const headerClasses = `header-default ${(sticky && check) ? 'sticky' : ''}`
+    const imageSwap = `${process.env.PUBLIC_URL}/images/logo/${(sticky && check) ? 'a-black.png' : 'a-white.png'}` 
     
     return (
         <>
@@ -26,8 +27,7 @@ const HeaderOne = ({btnStyle, HeaderSTyle}) => {
                             {/*<h1 style={{margin: "auto", fontSize: "36px"}}>Aquari</h1> */}
                             
                             <Logo 
-                                image={`${process.env.PUBLIC_URL}/images/logo/a-black.png`}
-                                image2={`${process.env.PUBLIC_URL}/images/logo/a-black.png`}
+                                image={imageSwap}
                             />
                         </div> 
                         <div className="col-lg-9 col-md-6 col-8 position-static">
