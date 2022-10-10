@@ -27,10 +27,11 @@ const OurMission = () => {
                         <div className="row align-items-center">
                             <div className="col-lg-7 col-xl-6 order-2 order-lg-1 mt_md--40 mt_sm--40">
                                 <div className="inner text-start">
-                                    <h1 className="title theme-gradient display-one">Our Mission</h1>
+                                    <h1 className="title theme-gradient display-one">Aquari's Mission</h1>
                                     <ul className="list-icon">
-                                        <li style={{color: "black", fontWeight: 600}}>Our mission at Aquari is to give you the experience of a lifetime.</li>
-                                        <li style={{color: "black", fontWeight: 600}}>We believe in giving you the best quality vacation you can receive. The memories you create will last forever. At Aquari we care about every place we dock at it. We love being there for the communities we travel to. Our goal is to have the locals view us as part of their community. </li>
+                                        <li style={{color: "black", fontWeight: 600}}> We want to satisfy our guests’ desire for experiences with people and places that leave a long-lasting impression even beyond the end of the journey.</li>
+                                        <li style={{color: "black", fontWeight: 600}}>Instead of providing services, we will provide hospitality – welcoming guests with open arms and open hearts.</li>
+                                        <li style={{color: "black", fontWeight: 600}}>To offer our guests the flexibility of travel on their timeline and budget, so they can experience other lands and expand their knowledge of the real world.</li>
                                     </ul>
                                     {/*}
                                     <div className="button-group mt--40">
@@ -70,15 +71,14 @@ const OurMission = () => {
                                     animateIn="fadeInUp"
                                     animateOut="fadeInOut"
                                     animateOnce={true}>
-                                        <h4 className="title">Our staff</h4>
+                                        <h4 className="title">Our Crew</h4>
                                     </ScrollAnimation>
                                     <ScrollAnimation 
                                     animateIn="fadeInUp"
                                     animateOut="fadeInOut"
                                     animateOnce={true}>
-                                    <p className="description">The staff at Aquari is well equipped with veterans when it comes to the river cruising industry. Our staff has an abundance of knowledge about river cruising.</p>
-                                    <p className="mt-2 description">We have decided it’s time to be different. We want to take you on a journey that you will never forget. A journey that is built around the desires and interests that you have. We are here to fulfill those dreams.
-</p>
+                                    <p className="description">Our Crew share the same love, passion, and knowledge about River Cruising. The Crew doesn’t work for us, but with us.</p>
+                                    <p className="mt-2 description">We want to treat partners, guests, and our crew in a way we would want to be treated ourselves. Honesty and openness with each other are cornerstones of Aquari’s foundation.  (Respect for one another is a must and this is non-negotiable.)</p>
                                     </ScrollAnimation>
                                 </div>
                             </div>
@@ -109,10 +109,8 @@ const OurMission = () => {
                                     animateIn="fadeInUp"
                                     animateOut="fadeInOut"
                                     animateOnce={true}>
-                                    <p className="description">We are full believers that tourism and peace work in harmony together. When you’re able to visit other countries it means that there is peace within that country.</p>
-                                    <p className="mt-2 description">Where there is tourism, there is peace. Experiencing different cultures, seeing other places, branching out and expanding your horizon allows you to respect and understand the places you’re visiting in a new light.
-</p>
-                                    
+                                    <p className="description">Where there is tourism, there is peace. Experiencing different cultures, branching out, and expanding your horizon allow you to respect and understand the places you visit in a new light.</p>
+                                    <p className="mt-2 description">As St. Augustine said, “The world is a book, and those who do not travel read only one page.”</p>
                                     </ScrollAnimation>
                                 </div>
                             </div>
@@ -146,9 +144,8 @@ const OurMission = () => {
                                     animateOut="fadeInOut"
                                     animateOnce={true}>
                                     <p className="description">...goes far beyond operating environmentally friendly.</p>
-                                    <p className="mt-2 description">We care deeply about the communities we visit, the people there and their social and cultural habitat. We support their neighbourhood, their traditions, and make sure that our visits don't disturb
-                                    the balance within</p>
-                                    <p className="mt-2 description">The community as a whole shall profit. When locals see our ships and you as part of their community, we have hit the point. And that is what we are working on. Whenever we have a choice, we will make the most <strong>sustainable solution</strong></p>
+                                    <p className="mt-2 description">We care deeply about the communities we visit, the people there, and their social and cultural habitat. We support their neighborhood, their traditions, and we make sure that our visits don't disturb the balance.</p>
+                                    <p className="mt-2 description">When locals see our ships and you as part of their community, we all win. That is what we are working on. Whenever we have a choice, we will make the most sustainable solution.</p>
                                     </ScrollAnimation>
                                 </div>
                             </div>
@@ -187,8 +184,9 @@ const OurMission = () => {
                                     animateIn="fadeInUp"
                                     animateOut="fadeInOut"
                                     animateOnce={true}>
-                                    <p className="description">...are open to encounter and spontaneious - not always fully organized - exchange</p>
-                                    <p className="mt-2 description">If you are at times looking for empathic exchange and interaction within your environment and the people that are part of it, you are on the right side with Aquari.</p>
+                                    <p className="description">...are open to encounters and spontaneous adventures-  not always fully organized</p>
+                                    <p className="mt-2 description">Enjoy discovering hidden little local places and corners out of the beaten tourist track</p>
+                                    <p className="mt-2 description">Experiencing places, and having encounters with people makes us all better humans! (Hopefully, we can judge people on their personalities, not their passports)</p>
                                     </ScrollAnimation>
                                 </div>
                             </div>
