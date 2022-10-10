@@ -38,7 +38,7 @@ const BannerData = [
     {
         image: "images/service/boatwithfriends.jpg",
         title: "Travel changes us in more ways than you realize.",
-        description: "We've got you covered as soon as you step on the ship."
+        description: "With Aquari River Cruising, the style of river travel is changing too."
     }
 ]
 
