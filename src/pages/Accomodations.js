@@ -27,9 +27,9 @@ const Accomodations = () => {
                         <div className="row align-items-center">
                             <div className="col-lg-7 col-xl-6 order-2 order-lg-1 mt_md--40 mt_sm--40">
                                 <div className="inner text-start">
-                                    <h1 className="title theme-gradient display-one">Accomodations</h1>
+                                    <h1 className="title theme-gradient display-one" style={{fontSize: "65px", whiteSpace: "nowrap"}}>Accomodations</h1>
                                     <ul className="list-icon">
-                                        <li style={{color: "black", fontWeight: 600}}>Our ship is in a class of its own!</li>
+                                        <li style={{color: "black", fontWeight: 600}}>For your comfort and enjoyment, take a look at our different stateroom types and explore our ship!</li>
                                         <li style={{color: "black", fontWeight: 600}}>Take a look at our rooms and the different parts of the ship</li>
                                     </ul>
                                     {/*}
@@ -56,7 +56,7 @@ const Accomodations = () => {
                             <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="thumbnail image-left-content">
                                     {/* 945 x 709 */}
-                                    <img src="./images/service/royal-suite.jpg" alt="split Images" />
+                                    <img src="./images/service/catabp_2.jpg" alt="split Images" />
                                 </div>
                             </div>
                             <div className="col-lg-12 col-xl-6 col-12">
@@ -118,7 +118,7 @@ const Accomodations = () => {
                             <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="thumbnail image-left-content">
                                     {/* 945 x 709 */}
-                                    <img src="./images/service/catabp_2.jpg" alt="split Images" />
+                                    <img src="./images/service/deluxestate.jpg" alt="split Images" />
                                 </div>
                             </div>
                             <div className="col-lg-12 col-xl-6 col-12">
@@ -162,7 +162,6 @@ const Accomodations = () => {
                                     animateOut="fadeInOut"
                                     animateOnce={true}>
                                         <h4 className="title">Category K: Middle Deck</h4>
-                                        <h4 className="title">R: Upper Deck</h4>
                                     </ScrollAnimation>
                                     <ScrollAnimation 
                                         animateIn="fadeInUp"
@@ -184,14 +183,13 @@ const Accomodations = () => {
                 </div>
 
                 <Separator />
-                {/* Start Service Area  */}
                 <div className="rn-splite-style mt-5 px-5">
                     <div className="split-wrapper">
                         <div className="row no-gutters radius-10 align-items-center">
                             <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="thumbnail image-left-content">
                                     {/* 945 x 709 */}
-                                    <img src="./images/service/deluxestate.jpg" alt="split Images" />
+                                    <img src="./images/service/panorama-suite.jpg" alt="split Images" />
                                 </div>
                             </div>
                             <div className="col-lg-12 col-xl-6 col-12">
@@ -200,7 +198,44 @@ const Accomodations = () => {
                                     animateIn="fadeInUp"
                                     animateOut="fadeInOut"
                                     animateOnce={true}>
-                                        <h4 className="title">Category W: Upper Deck</h4>
+                                        <h4 className="title">Category R: Upper Deck</h4>
+                                    </ScrollAnimation>
+                                    <ScrollAnimation 
+                                        animateIn="fadeInUp"
+                                        animateOut="fadeInOut"
+                                        animateOnce={true}>
+                                        <ul>
+                                            <li className="description">200 sqft / 18.6 m2</li>
+                                            <li className="description">Wall-to-Wall Panoramic Windows</li>
+                                            <li className="description">French Balcony</li>
+                                            <li className="description">Seating Area</li>
+                                            <li className="description">Beds Facing the Window</li>
+                                        </ul>
+            
+                                    </ScrollAnimation>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <Separator />
+                {/* Start Service Area  */}
+                <div className="rn-splite-style mt-5 px-5">
+                    <div className="split-wrapper">
+                        <div className="row no-gutters radius-10 align-items-center">
+                            <div className="col-lg-12 col-xl-6 col-12">
+                                <div className="thumbnail image-left-content">
+                                    {/* 945 x 709 */}
+                                    <img src="./images/service/royal-suite.jpg" alt="split Images" />
+                                </div>
+                            </div>
+                            <div className="col-lg-12 col-xl-6 col-12">
+                                <div className="split-inner">
+                                    <ScrollAnimation 
+                                    animateIn="fadeInUp"
+                                    animateOut="fadeInOut"
+                                    animateOnce={true}>
+                                        <h4 className="title">Category W (Suite)</h4>
                                     </ScrollAnimation>
                                     <ScrollAnimation 
                                         animateIn="fadeInUp"
