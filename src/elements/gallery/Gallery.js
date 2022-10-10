@@ -11,10 +11,10 @@ function Gallery({galleryItem}) {
             </div>
             <div className="text" style={{width: "50%"}}>
                 <h5>{title}</h5>
-                <p>{description}</p>
-                <p>{description2}</p>
-                <p>{description3}</p>
-                <p>{description4}</p>
+                <h5>{description}</h5>
+                <h5>{description2}</h5>
+                <h5>{description3}</h5>
+                <h5>{description4}</h5>
                 <a hidden={!link} href={link}><h4 className="mt-5" style={{textAlign: "center", color: "#0560B3", textDecoration: "underline"}}>{linkText}</h4></a>
             </div>
             
