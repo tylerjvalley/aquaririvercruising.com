@@ -1,4 +1,3 @@
-const { createClient } = require("@astrajs/rest");
 
 exports.handler = async function(name, email) {
     return {
