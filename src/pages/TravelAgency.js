@@ -74,7 +74,7 @@ const PopupData2 = [
         image: "images/service/strasbourg-with-peeps.jpg",
         //linkText: "Meet our team and crew!"
         title: "Traveling is peace",
-        description: "Here at Aquari we believe that traveling not only brings peace to our lives, it allows us to see people in a different perspective. Traveling allows you to expand your horizons, see how other people live their lives, and experience these wonderful cultures. This understanding is the underlying cause for respect towards others and “peace” in this world."
+        description: "Here at Aquari we believe that traveling not only brings peace to our lives, it allows us to see people in a different perspective. Traveling encourages us to expand our horizons, see how other people live their lives, and experience these wonderful cultures. This understanding is the underlying cause for respect towards others and peace in this world."
     },
     
 ]

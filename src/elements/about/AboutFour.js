@@ -16,7 +16,7 @@ const AboutFour = ({image}) => {
                                 <h4 className="title second">You're not a tourist with us; you're a traveler.</h4>
                               
                                 <ul className="feature-list">
-                                    <li className="text">Unpack only once, the rest of the time the hotel will travel with you.</li>
+                                    <li className="text">Unpack only once, and the hotel will travel with you.</li>
                                     <li className="text">Scenic sailings provide views unattainable by land.</li>
                                     <li className="text">Made friends on land? <br/> Bring them aboard for dinner or have them join you for a drink in the lounge.</li>
                                     <li className="text">With our sailing schedule, you know where we're going and you plan your exploration around it.</li>
