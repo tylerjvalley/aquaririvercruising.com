@@ -56,7 +56,7 @@ const Investors = () => {
                             </div>
                             <div className="col-lg-5 col-xl-6 order-1 order-lg-2">
                                 <div className="frame-image">
-                                    <img src="./images/service/exterior2.jpg" alt="Banner Images" />
+                                    <img src="./images/service/exterior8.jpg" alt="Banner Images" />
                                 </div>
                             </div>
                         </div>

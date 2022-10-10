@@ -119,6 +119,7 @@ const Accomodations = () => {
                                 <div className="thumbnail image-left-content">
                                     {/* 945 x 709 */}
                                     <img src="./images/service/deluxestate.jpg" alt="split Images" />
+                                    <img src="./images/service/lowerschem.png" />
                                 </div>
                             </div>
                             <div className="col-lg-12 col-xl-6 col-12">
@@ -153,6 +154,7 @@ const Accomodations = () => {
                                 <div className="thumbnail image-left-content">
                                     {/* 945 x 709 */}
                                     <img src="./images/service/panorama-suite.jpg" alt="split Images" />
+                                    <img src="./images/service/middleschem.png" />
                                 </div>
                             </div>
                             <div className="col-lg-12 col-xl-6 col-12">
@@ -189,7 +191,8 @@ const Accomodations = () => {
                             <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="thumbnail image-left-content">
                                     {/* 945 x 709 */}
-                                    <img src="./images/service/panorama-suite.jpg" alt="split Images" />
+                                    <img src="./images/service/catabp_sitting_area.jpg" alt="split Images" />
+                                    <img src="./images/service/middleschem.png" />
                                 </div>
                             </div>
                             <div className="col-lg-12 col-xl-6 col-12">
@@ -227,6 +230,7 @@ const Accomodations = () => {
                                 <div className="thumbnail image-left-content">
                                     {/* 945 x 709 */}
                                     <img src="./images/service/royal-suite.jpg" alt="split Images" />
+                                    <img src="./images/service/royalschem.png" />
                                 </div>
                             </div>
                             <div className="col-lg-12 col-xl-6 col-12">
@@ -276,8 +280,8 @@ const Accomodations = () => {
                                     animateIn="fadeInUp"
                                     animateOut="fadeInOut"
                                     animateOnce={true}>
-                                        <h4 className="title">Category K: Middle Deck</h4>
-                                        <h4 className="title">R: Upper Deck</h4>
+                                        <h4 className="title">Bathrooms</h4>
+                                        <h4 className="title">Category C:</h4>
                                     </ScrollAnimation>
                                     <ScrollAnimation 
                                         animateIn="fadeInUp"
@@ -291,6 +295,38 @@ const Accomodations = () => {
                                             <li className="description">bath-robe</li>
                                             <li className="description">slippers</li>
                                             <li className="description">high quality local amenities</li>
+                                        </ul>
+            
+                                    </ScrollAnimation>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="rn-splite-style mt-5 px-5">
+                    <div className="split-wrapper">
+                        <div className="row no-gutters radius-10 align-items-center">
+                            <div className="col-lg-12 col-xl-6 col-12">
+                                <div className="thumbnail image-left-content">
+                                    {/* 945 x 709 */}
+                                    <img src="./images/service/catabp_bathroom.jpg" alt="split Images" />
+                                </div>
+                            </div>
+                            <div className="col-lg-12 col-xl-6 col-12">
+                                <div className="split-inner">
+                                    <ScrollAnimation 
+                                    animateIn="fadeInUp"
+                                    animateOut="fadeInOut"
+                                    animateOnce={true}>
+                                        <h4 className="title">Bathrooms</h4>
+                                        <h4 className="title">Category K/R:</h4>
+                                    </ScrollAnimation>
+                                    <ScrollAnimation 
+                                        animateIn="fadeInUp"
+                                        animateOut="fadeInOut"
+                                        animateOnce={true}>
+                                        <ul>
+                                            <li className="description">Almost twice as big as Category C bathrooms!</li>
                                         </ul>
             
                                     </ScrollAnimation>
