@@ -175,6 +175,7 @@ const TravelAgency = () => {
                     <SubscribeModal 
                         alert={handleAlert}
                         open={showModal}
+                        investors={false}
                         close={() => setShowModal(false)}
                     />
                 </div>

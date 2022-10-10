@@ -10,6 +10,7 @@ export default function SubscribeModal(props) {
         open,
         close,
         alert,
+        investors,
       } = props;
 
       const [name, setName] = useState("");
@@ -51,6 +52,10 @@ export default function SubscribeModal(props) {
         props.alert('Name and Email saved, stay tuned for more updates!')
         props.close(false);
       }
+
+      const handlePhoneInput = () => {
+
+      }
     
       const handleClose = () => {
         props.close(false);
@@ -60,12 +65,22 @@ export default function SubscribeModal(props) {
     <>
       <Modal show={open} onHide={handleClose}>
         <Modal.Header style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
-          <Modal.Title style={{color: "black"}}>Enter your name and Email to receive updates from Aquari!</Modal.Title>
-          <p style={{color: "black", fontWeight: 600}}>We'll send you updates on itineraries, events in the cities we'll be going to, and more!</p>
+            {investors ? (
+                <>
+                <Modal.Title style={{color: "black"}}>Enter your name, email, and phone number to get more information about investing with us!</Modal.Title>
+                <p style={{color: "black", fontWeight: 600}}>We'll send you updates on itineraries, events in the cities we'll be going to, and more!</p>
+                </>
+            ) : (
+                <>
+                <Modal.Title style={{color: "black"}}>Enter your name and Email to receive updates from Aquari!</Modal.Title>
+                <p style={{color: "black", fontWeight: 600}}>We'll send you updates on itineraries, events in the cities we'll be going to, and more!</p>
+                </>
+            )}
+          
         </Modal.Header>
         <Modal.Body>
         <Form>
-        <Form.Group className="mb-3" controlId="formBasicName">
+            <Form.Group className="mb-3" controlId="formBasicName">
                 <Form.Label>First and Last name</Form.Label>
                 <Form.Control onChange={handleNameInput} style={{border: "1px solid black"}} type="text" placeholder="Name" />
             </Form.Group>
@@ -76,6 +91,13 @@ export default function SubscribeModal(props) {
                 We'll never share your email with anyone else.
                 </Form.Text>
             </Form.Group>
+            {investors ? (
+                 <Form.Group className="mb-3" controlId="formBasicName">
+                    <Form.Label>Phone Number</Form.Label>
+                    <Form.Control onChange={handlePhoneInput} style={{border: "1px solid black"}} type="number" placeholder="(xxx)-xxx-xxxx" />
+                </Form.Group>
+            ) : ''}
+           
         </Form>
         </Modal.Body>
         <Modal.Footer>
