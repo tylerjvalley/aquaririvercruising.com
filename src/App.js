@@ -12,6 +12,8 @@ import TravelAgency from "./pages/TravelAgency";
 import LeisureTravel from './pages/LeisureTravel';
 import Accomodations from './pages/Accomodations';
 import SailingSchedule from './pages/SailingSchedule';
+import Map from './pages/Map';
+import Investors from './pages/Investors';
 
 
 
@@ -40,6 +42,8 @@ const App = () => {
                     <Route path={`${process.env.PUBLIC_URL + "/leisure-travel"}`} exact component={LeisureTravel}/>
                     <Route path={`${process.env.PUBLIC_URL + "/our-mission"}`} exact component={OurMission}/>
                     <Route path={`${process.env.PUBLIC_URL + "/sailing-schedule"}`} exact component={SailingSchedule}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/map"}`} exact component={Map}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/investors"}`} exact component={Investors}/>
                     {/*
                     <Route path={`${process.env.PUBLIC_URL + "/business-consulting"}`} exact component={HomeDefault}/>
                     <Route path={`${process.env.PUBLIC_URL + "/business-consulting-2"}`} exact component={BusinessConsulting2}/>

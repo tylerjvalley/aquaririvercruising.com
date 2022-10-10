@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import SEO from "../common/SEO";
 
 
@@ -13,8 +13,11 @@ import Separator from "../elements/separator/Separator";
 import AboutFour from '../elements/about/AboutFour';
 import GalleryOne from "../elements/gallery/GalleryOne";
 import Gallery from "../elements/gallery/Gallery";
+import SubscribeModal from "../components/subscribeModal";
 
-import BlogClassicData from '../data/blog/BlogList.json';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.min.css';
+
 
 
 const BannerData = [
@@ -76,7 +79,20 @@ const PopupData2 = [
 ]
 
 
+
 const TravelAgency = () => {
+
+    const [showModal, setShowModal] = useState(false);
+
+    const handleButtonClick = () => {
+        setShowModal(true);
+        toast.success('test');
+    }
+
+    const handleAlert = (msg) => {
+        toast.success(msg)
+    }
+    
     return (
         <>
             <SEO title="Aquari" />
@@ -153,9 +169,20 @@ const TravelAgency = () => {
                 </div>
                 {/* End Elements Area  */}
 
+                <div className="container subscribe">
+                    <h6>Click Here for more updates!</h6>
+                    <button onClick={handleButtonClick}>Subscribe</button>
+                    <SubscribeModal 
+                        alert={handleAlert}
+                        open={showModal}
+                        close={() => setShowModal(false)}
+                    />
+                </div>
+
             <div className="container last-text">
                 <h1>Adventures begin April 2023</h1>
             </div>
+
                
 
                 <Separator />

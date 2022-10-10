@@ -27,6 +27,7 @@
     "disqus-react": "^1.1.1",
     "dotenv": "8.2.0",
     "dotenv-expand": "5.1.0",
+    "easybase-react": "^2.2.13",
     "emailjs-com": "^3.2.0",
     "eslint": "^7.11.0",
     "eslint-config-react-app": "^6.0.0",
@@ -77,6 +78,7 @@
     "react-scripts": "^5.0.1",
     "react-slick": "^0.28.1",
     "react-tabs": "^3.2.2",
+    "react-toastify": "9.0.0",
     "react-typed": "^1.2.0",
     "resolve": "1.18.1",
     "resolve-url-loader": "^3.1.2",
@@ -118,7 +120,8 @@
     ]
   },
   "devDependencies": {
-    "fslightbox-react": "^1.6.2"
+    "fslightbox-react": "^1.6.2",
+    "netlify-cli": "^12.0.7"
   },
   "cssnano": {
     "preset": [

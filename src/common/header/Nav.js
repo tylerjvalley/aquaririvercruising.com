@@ -26,6 +26,8 @@ const Nav = () => {
                 </ul>
             </li>
             <li><Link to="/sailing-schedule">Sailing Schedule</Link></li> 
+            <li><Link to="/investors">Investors</Link></li> 
+            <li><Link to="/map">Map</Link></li> 
             {/*<li><Link to="/Aquari/business-travel">Business Travel</Link></li> 
             <li><Link to="/Aquari/leisure-travel">Leisure Travel</Link></li> 
             <li><Link to="#">Map</Link></li>

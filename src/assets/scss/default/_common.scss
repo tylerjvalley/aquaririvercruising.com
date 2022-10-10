@@ -496,5 +496,84 @@
     }
 }
 
+.subscribe {
+    text-align: center;
+    margin: 100px auto;
+
+    h6 {
+        color: black;
+        font-weight: 600;
+    }
+    button {
+        height: 50px;
+        width: 100px;
+        border-radius: 8px;
+        border: none;
+        background-color: aqua;
+        font-size: 16px;
+        font-weight: 600;
+        color: white;
+    }
+}
+
+.events-table {
+    width: 80%;
+    background-image: url('../../../assets/images/soft-background.jpg');
+    background-size: 5%;
+    margin: 50px auto;
+    border-collapse: collapse;
+    tr {
+        td {
+            border-bottom: 1px solid black;
+            img {
+                margin-top: 22%;
+                border-radius: 10px;
+            }
+            h3, p {
+                color: black;
+            }
+            .highlighted {
+                background-color: maroon;
+                border-radius: 2px;
+                color: white;
+                font-weight: 600;
+                width: 100%;
+                text-align: center;
+            }
+
+            .red {
+                color: red;
+                font-weight: 500;
+            }
+
+            .highlighted-blue {
+                background-color: darkblue;
+                border-radius: 2px;
+                color: white;
+                font-weight: 600;
+                width: 100%;
+                text-align: center;
+            }
+            .blue {
+                color: blue;
+                font-weight: 500;
+            }
+            .highlighted-orange {
+                background-color: orange;
+                border-radius: 2px;
+                color: white;
+                font-weight: 600;
+                width: 100%;
+                text-align: center;
+            }
+            .orange {
+                color: orange;
+                font-weight: 500;
+            }
+        }
+        
+    }
+}
+
 
 
