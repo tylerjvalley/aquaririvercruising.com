@@ -49,7 +49,7 @@ const Investors = () => {
                                     <h1 className="title theme-gradient display-one">Interested in being part of the journey?</h1>
                                     <ul className="list-icon">
                                         <li style={{color: "black", fontWeight: 600}}>Opportunities to invest are still available.  Investing will push our growth and expand the fleet.</li>
-                                        <li style={{color: "black", fontWeight: 600}}>We are changing the industry, join us and be part the Aquari future with great benefits for investors.</li>
+                                        <li style={{color: "black", fontWeight: 600}}>We are changing the industry, join us and be part of the Aquari future with great benefits for investors.</li>
                 
                                     </ul>
                                 
