@@ -30,8 +30,8 @@ const Map = () => {
                 <Table bordered hover className="table events-table">
                     <tbody>
                         <tr>
-                            <td>
-                                <img style={{height: "200px", width: "200px"}} src="./images/service/gent.jpg" />
+                            <td className="d-none d-md-inline">
+                                <img className="city-image" src="./images/service/gent.jpg" />
                             </td>
                             <td>
                                 <h3>Gent</h3>
@@ -51,8 +51,8 @@ const Map = () => {
                             <td style={{width: "15%"}}></td>
                         </tr>
                         <tr>
-                            <td>
-                                <img style={{height: "200px", width: "200px"}}src="./images/service/bossuit.jpg" />
+                            <td className="d-none d-md-inline">
+                                <img className="city-image" src="./images/service/bossuit.jpg" />
                             </td>
                             <td>
                                 <h3>Bossuit</h3>
@@ -74,8 +74,8 @@ const Map = () => {
                             </td>
                         </tr>
                         <tr>
-                            <td>
-                                <img style={{height: "200px", width: "200px"}}src="./images/service/oudenaarde.jpg" />
+                            <td className="d-none d-md-inline">
+                                <img className="city-image" src="./images/service/oudenaarde.jpg" />
                             </td>
                             <td>
                                 <h3>Oudenaarde</h3>
@@ -98,8 +98,8 @@ const Map = () => {
                             </td>
                         </tr>
                         <tr>
-                            <td>
-                                <img style={{height: "200px", width: "200px"}}src="./images/service/antwerp.jpg" />
+                            <td className="d-none d-md-inline">
+                                <img className="city-image" src="./images/service/antwerp.jpg" />
                             </td>
                             <td>
                                 <h3>Antwerp</h3>
@@ -121,8 +121,8 @@ const Map = () => {
                             </td>
                         </tr>
                         <tr>
-                            <td>
-                                <img style={{height: "200px", width: "200px"}}src="./images/service/maastricht.jpg" />
+                            <td className="d-none d-md-inline">
+                                <img className="city-image" src="./images/service/maastricht.jpg" />
                             </td>
                             <td>
                                 <h3>Maastricht</h3>
@@ -147,8 +147,8 @@ const Map = () => {
                             </td>
                         </tr>
                         <tr>
-                            <td>
-                                <img style={{height: "200px", width: "200px"}}src="./images/service/nijmegen.jpg" />
+                            <td className="d-none d-md-inline">
+                                <img className="city-image" src="./images/service/nijmegen.jpg" />
                             </td>
                             <td>
                                 <h3>Nijmegen</h3>
@@ -172,8 +172,8 @@ const Map = () => {
                             </td>
                         </tr>
                         <tr>
-                            <td>
-                                <img style={{height: "200px", width: "200px"}}src="./images/service/rotterdam.png" />
+                            <td className="d-none d-md-inline">
+                                <img className="city-image" src="./images/service/rotterdam.png" />
                             </td>
                             <td>
                                 <h3>Rotterdam</h3>
@@ -200,8 +200,8 @@ const Map = () => {
                             </td>
                         </tr>
                         <tr>
-                            <td>
-                                <img style={{height: "200px", width: "200px"}}src="./images/service/amsterdam-canals.jpg" />
+                            <td className="d-none d-md-inline">
+                                <img className="city-image" src="./images/service/amsterdam-canals.jpg" />
                             </td>
                             <td>
                                 <h3>Amsterdam</h3>

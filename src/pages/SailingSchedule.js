@@ -266,7 +266,7 @@ const SailingSchedule = () => {
             <SEO title="About Us" />
             <main className="page-wrapper">
                 <HeaderOne btnStyle="btn-small" />
-                <div style={{height: 1000, margin: "70px"}}>
+                <div className="sailing-schedule">
                     <Calendar 
                         localizer={localizer}
                         events={myEventsList}

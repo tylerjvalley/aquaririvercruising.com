@@ -563,12 +563,21 @@
     background-size: 5%;
     margin: 50px auto;
     border-collapse: collapse;
+    @media (max-width: 776px) {
+        width: 100%;
+    }
     tr {
         td {
             border-bottom: 1px solid black;
-            img {
+            .city-image {
                 margin-top: 22%;
+                height: 200px;
+                width: 200px;
                 border-radius: 10px;
+                @media (max-width: 991px) {
+                    height: 81px;
+                    width: 569px;
+                }
             }
             h3, p {
                 color: black;
@@ -648,6 +657,15 @@
 
     @media (max-width: 380px) {
         font-size: 35px !important;
+    }
+}
+
+.sailing-schedule {
+    height: 1000px;
+    margin: 70px;
+
+    @media (max-width: 776px) {
+        margin: 70px 0;
     }
 }
 
