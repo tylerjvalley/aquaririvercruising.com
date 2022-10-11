@@ -6,7 +6,7 @@ import { FiArrowRight } from "react-icons/fi";
 import HeaderOne from '../common/header/HeaderOne';
 
 import Copyright from '../common/footer/Copyright';
-
+import Alert from 'react-bootstrap/Alert';
 
 import Separator from "../elements/separator/Separator";
 import SubscribeModal from "../components/subscribeModal";
@@ -19,16 +19,20 @@ import 'react-toastify/dist/ReactToastify.min.css';
 
 
 const Investors = () => {
+    
 
     const [showModal, setShowModal] = useState(false);
+    const [showAlert, setShowAlert] = useState(false);
 
     const handleButtonClick = () => {
         setShowModal(true);
         toast.success('test');
     }
 
-    const handleAlert = (msg) => {
-        toast.success(msg)
+    const handleAlert = (alert) => {
+        if (alert) {
+            setShowAlert(true);
+        }
     }
     return (
         <>
@@ -72,6 +76,13 @@ const Investors = () => {
                         investors={true}
                         close={() => setShowModal(false)}
                 />
+                <Alert hidden={!showAlert} style={{position: "fixed", top: "90px", right: "90px", padding: "20px", zIndex: 100}}
+                   dismissable="true"
+                   variant="success">
+                    <h5 style={{cursor: "pointer", position: "absolute", color: "black", top: 0, right: "11px"}} onClick={() => setShowAlert(false)}>X</h5>
+                    Information Saved. Stay tuned for updates!
+                </Alert>
+
 
                 <Separator />
                 

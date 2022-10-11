@@ -1,11 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import Form from 'react-bootstrap/Form';
+import emailjs from '@emailjs/browser';
+
 
 
 export default function SubscribeModal(props) {
 
+  const form = useRef();
     const { 
         open,
         close,
@@ -15,6 +18,7 @@ export default function SubscribeModal(props) {
 
       const [name, setName] = useState("");
       const [email, setEmail] = useState("");
+      const [showAlert, setShowAlert] = useState(false);
 
       const handleNameInput = (e) => {
         setName(e.target.value);
@@ -24,32 +28,15 @@ export default function SubscribeModal(props) {
        setEmail(e.target.value);
       }
 
-      const handleSubmit = () => {/*
-        const astraClient = createClient({
-            astraDatabaseId: "50fe5c21-48f2-4356-a9c3-44d1ea6cae6c",
-            astraDatabaseRegion: "us-east1",
-            applicationToken: "AstraCS:rzYPKIjGZvwXIjcAIjoxyFtR:6bbb9aa5b2c7963bab2317c809c7b24b8dd64ec1dfa9ebabce410d20d5edfea0@1",
-        });
-        const emailCollection = astraClient.namespace("aquari").collection("emails");
-
-    // create a new user (specifying documentId)
-
-        try {
-            const user = emailCollection.create("test@email.com", {
-                name: "cliff",
-            });
-            return {
-                statusCode: 200,
-                body: JSON.stringify(user)
-            }
-        } catch (e) {
-            console.log(e);
-            return {
-                statusCode: 500,
-                body: JSON.stringify(e)
-            }
-        } */
-        props.alert('Name and Email saved, stay tuned for more updates!')
+      const handleSubmit = () => {
+        emailjs.sendForm('service_5oz45n8', 'template_8vjtxdc', form.current, 'i_-efWng_8s_PIlOi')
+        .then((result) => {
+          console.log(result.text);
+        }, (error) => {
+          console.log(error.text);
+        })
+      
+        props.alert(true);
         props.close(false);
       }
 
@@ -79,14 +66,14 @@ export default function SubscribeModal(props) {
           
         </Modal.Header>
         <Modal.Body>
-        <Form>
+        <Form ref={form}>
             <Form.Group className="mb-3" controlId="formBasicName">
                 <Form.Label>First and Last name</Form.Label>
-                <Form.Control onChange={handleNameInput} style={{border: "1px solid black"}} type="text" placeholder="Name" />
+                <Form.Control name="user_name" style={{border: "1px solid black"}} type="text" placeholder="Name" />
             </Form.Group>
             <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Label>Email address</Form.Label>
-                <Form.Control onChange={handleEmailInput} style={{border: "1px solid black"}} type="email" placeholder="Enter email" />
+                <Form.Control name="user_email" style={{border: "1px solid black"}} type="email" placeholder="Enter email" />
                 <Form.Text className="text-muted">
                 We'll never share your email with anyone else.
                 </Form.Text>
@@ -94,11 +81,12 @@ export default function SubscribeModal(props) {
             {investors ? (
                  <Form.Group className="mb-3" controlId="formBasicName">
                     <Form.Label>Phone Number</Form.Label>
-                    <Form.Control onChange={handlePhoneInput} style={{border: "1px solid black"}} type="number" placeholder="(xxx)-xxx-xxxx" />
+                    <Form.Control name="user_phone" style={{border: "1px solid black"}} type="number" placeholder="(xxx)-xxx-xxxx" />
                 </Form.Group>
             ) : ''}
            
         </Form>
+        
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>

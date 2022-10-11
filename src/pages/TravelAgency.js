@@ -14,6 +14,7 @@ import AboutFour from '../elements/about/AboutFour';
 import GalleryOne from "../elements/gallery/GalleryOne";
 import Gallery from "../elements/gallery/Gallery";
 import SubscribeModal from "../components/subscribeModal";
+import Alert from 'react-bootstrap/Alert';
 
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
@@ -84,14 +85,17 @@ const PopupData2 = [
 const TravelAgency = () => {
 
     const [showModal, setShowModal] = useState(false);
+    const [showAlert, setShowAlert] = useState(false);
 
     const handleButtonClick = () => {
         setShowModal(true);
         toast.success('test');
     }
 
-    const handleAlert = (msg) => {
-        toast.success(msg)
+    const handleAlert = (alert) => {
+        if (alert) {
+            setShowAlert(true);
+        }
     }
     
     return (
@@ -184,6 +188,13 @@ const TravelAgency = () => {
             <div className="container last-text">
                 <h1>Adventures begin April 2023</h1>
             </div>
+
+            <Alert hidden={!showAlert} style={{position: "fixed", top: "90px", right: "90px", padding: "20px", zIndex: 100}}
+                   dismissable="true"
+                   variant="success">
+                    <h5 style={{cursor: "pointer", position: "absolute", color: "black", top: 0, right: "11px"}} onClick={() => setShowAlert(false)}>X</h5>
+                Information Saved. Stay tuned for updates!
+            </Alert>
 
                
 
