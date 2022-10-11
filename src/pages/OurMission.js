@@ -31,7 +31,7 @@ const OurMission = () => {
                                     <ul className="list-icon">
                                         <li style={{color: "black", fontWeight: 600}}> We want to satisfy our guests’ desire for experiences with people and places that leave a long-lasting impression even beyond the end of the journey.</li>
                                         <li style={{color: "black", fontWeight: 600}}>Instead of providing services, we will provide hospitality – welcoming guests with open arms and open hearts.</li>
-                                        <li style={{color: "black", fontWeight: 600}}>To offer our guests the flexibility of travel on their timeline and budget, so they can experience other lands and expand their knowledge of the real world.</li>
+                                        <li style={{color: "black", fontWeight: 600}}>Our priority is to offer our guests the flexibility of travel on their timeline and budget, so they can experience other lands and expand their knowledge of the real world.</li>
                                     </ul>
                                     {/*}
                                     <div className="button-group mt--40">
@@ -77,8 +77,8 @@ const OurMission = () => {
                                     animateIn="fadeInUp"
                                     animateOut="fadeInOut"
                                     animateOnce={true}>
-                                    <p className="description">Our Crew share the same love, passion, and knowledge about River Cruising. The Crew doesn’t work for us, but with us.</p>
-                                    <p className="mt-2 description">We want to treat partners, guests, and our crew in a way we would want to be treated ourselves. Honesty and openness with each other are cornerstones of Aquari’s foundation.  (Respect for one another is a must and this is non-negotiable.)</p>
+                                    <p className="description">Like us, our crew shares the same love, passion, and knowledge about River Cruising. The Crew doesn’t work for us, but with us.</p>
+                                    <p className="mt-2 description">We want to treat partners, guests, and our crew in a way we would want to be treated. Honesty and openness are cornerstones of Aquari’s foundation.  (Respect for one another is a must and this is non-negotiable.)</p>
                                     </ScrollAnimation>
                                 </div>
                             </div>
@@ -145,7 +145,7 @@ const OurMission = () => {
                                     animateOnce={true}>
                                     <p className="description">...goes far beyond operating environmentally friendly.</p>
                                     <p className="mt-2 description">We care deeply about the communities we visit, the people there, and their social and cultural habitat. We support their neighborhood, their traditions, and we make sure that our visits don't disturb the balance.</p>
-                                    <p className="mt-2 description">When locals see our ships and you as part of their community, we all win. That is what we are working on. Whenever we have a choice, we will make the most sustainable solution.</p>
+                                    <p className="mt-2 description">When locals see our ships and you as part of their community, we all win. Whenever we have a choice, we are committed to make the most sustainable solution.</p>
                                     </ScrollAnimation>
                                 </div>
                             </div>
@@ -178,14 +178,14 @@ const OurMission = () => {
                                     animateIn="fadeInUp"
                                     animateOut="fadeInOut"
                                     animateOnce={true}>
-                                        <h4 className="title">Explorers, like you...</h4>
+                                        <h4 className="title">Explorers like you...</h4>
                                     </ScrollAnimation>
                                     <ScrollAnimation 
                                     animateIn="fadeInUp"
                                     animateOut="fadeInOut"
                                     animateOnce={true}>
-                                    <p className="description">...are open to encounters and spontaneous adventures-  not always fully organized</p>
-                                    <p className="mt-2 description">Enjoy discovering hidden little local places and corners out of the beaten tourist track</p>
+                                    <p className="description">...are open to encounters and spontaneous adventures-  not always fully structured</p>
+                                    <p className="mt-2 description">Enjoy discovering hidden little local places and corners off of the beaten tourist track</p>
                                     <p className="mt-2 description">Experiencing places, and having encounters with people makes us all better humans! (Hopefully, we can judge people on their personalities, not their passports)</p>
                                     </ScrollAnimation>
                                 </div>

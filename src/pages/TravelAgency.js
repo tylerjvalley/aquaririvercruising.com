@@ -171,7 +171,7 @@ const TravelAgency = () => {
                 {/* End Elements Area  */}
 
                 <div className="container subscribe">
-                    <h6>Click Here for more updates!</h6>
+                    <h6>Connect with Aquari so we can keep you up to date!</h6>
                     <button onClick={handleButtonClick}>Subscribe</button>
                     <SubscribeModal 
                         alert={handleAlert}

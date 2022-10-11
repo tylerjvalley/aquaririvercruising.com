@@ -30,7 +30,6 @@ const Accomodations = () => {
                                     <h1 className="title theme-gradient display-one" style={{fontSize: "65px", whiteSpace: "nowrap"}}>Accomodations</h1>
                                     <ul className="list-icon">
                                         <li style={{color: "black", fontWeight: 600}}>For your comfort and enjoyment, take a look at our different stateroom types and explore our ship!</li>
-                                        <li style={{color: "black", fontWeight: 600}}>Take a look at our rooms and the different parts of the ship</li>
                                     </ul>
                                     {/*}
                                     <div className="button-group mt--40">
@@ -54,12 +53,6 @@ const Accomodations = () => {
                     <div className="split-wrapper">
                         <div className="row no-gutters radius-10 align-items-center">
                             <div className="col-lg-12 col-xl-6 col-12">
-                                <div className="thumbnail image-left-content">
-                                    {/* 945 x 709 */}
-                                    <img src="./images/service/catabp_2.jpg" alt="split Images" />
-                                </div>
-                            </div>
-                            <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="split-inner">
                                     <ScrollAnimation 
                                     animateIn="fadeInUp"
@@ -72,15 +65,16 @@ const Accomodations = () => {
                                             animateIn="fadeInUp"
                                             animateOut="fadeInOut"
                                             animateOnce={true}>
-                                            <ul>
+                                            <ul className="accomodation-list">
                                                 <li className="description">soft &amp; firm pillows</li>
-                                                <li className="description">mattress menu</li>
                                                 <li className="description">queen size or twin bed configuration</li>
                                                 <li className="description">spacious closet</li>
                                                 <li className="description">writing desk &amp; chair</li>
                                                 <li className="description">mini bar</li>
                                                 <li className="description">hair dryer</li>
                                                 <li className="description">bathrobe</li>
+                                                <li className="description">flat screen TV</li>
+                                                <li className="description">internet/wifi</li>
                                             </ul>
                 
                                         </ScrollAnimation>
@@ -88,9 +82,7 @@ const Accomodations = () => {
                                             animateIn="fadeInUp"
                                             animateOut="fadeInOut"
                                             animateOnce={true}>
-                                            <ul>
-                                                <li className="description">flat screen TV</li>
-                                                <li className="description">internet/wifi</li>
+                                            <ul className="accomodation-list">
                                                 <li className="description">spacious bathroom</li>
                                                 <li className="description">air conditioning</li>
                                                 <li className="description">full size mirror</li>
@@ -104,6 +96,12 @@ const Accomodations = () => {
                                     </div>
                                 </div>
                             </div>
+                            <div className="col-lg-12 col-xl-6 col-12">
+                                <div className="thumbnail image-left-content">
+                                    {/* 945 x 709 */}
+                                    <img src="./images/service/catabp_2.jpg" alt="split Images" />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -115,13 +113,6 @@ const Accomodations = () => {
                 <div className="rn-splite-style mt-5 px-5">
                     <div className="split-wrapper">
                         <div className="row no-gutters radius-10 align-items-center">
-                            <div className="col-lg-12 col-xl-6 col-12">
-                                <div className="thumbnail image-left-content">
-                                    {/* 945 x 709 */}
-                                    <img src="./images/service/deluxestate.jpg" alt="split Images" />
-                                    <img src="./images/service/lowerschem.png" />
-                                </div>
-                            </div>
                             <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="split-inner">
                                     <ScrollAnimation 
@@ -134,12 +125,19 @@ const Accomodations = () => {
                                         animateIn="fadeInUp"
                                         animateOut="fadeInOut"
                                         animateOnce={true}>
-                                        <ul>
+                                        <ul className="accomodation-list">
                                             <li className="description">172 sqft / 16 m2</li>
                                             <li className="description">2 Panoramic Windows</li>
                                         </ul>
             
                                     </ScrollAnimation>
+                                </div>
+                            </div>
+                            <div className="col-lg-12 col-xl-6 col-12">
+                                <div className="thumbnail image-left-content">
+                                    {/* 945 x 709 */}
+                                    <img src="./images/service/deluxestate.jpg" alt="split Images" />
+                                    <img src="./images/service/lowerschem.png" />
                                 </div>
                             </div>
                         </div>
@@ -150,13 +148,6 @@ const Accomodations = () => {
                 <div className="rn-splite-style mt-5 px-5">
                     <div className="split-wrapper">
                         <div className="row no-gutters radius-10 align-items-center">
-                            <div className="col-lg-12 col-xl-6 col-12">
-                                <div className="thumbnail image-left-content">
-                                    {/* 945 x 709 */}
-                                    <img src="./images/service/panorama-suite.jpg" alt="split Images" />
-                                    <img src="./images/service/middleschem.png" />
-                                </div>
-                            </div>
                             <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="split-inner">
                                     <ScrollAnimation 
@@ -169,7 +160,7 @@ const Accomodations = () => {
                                         animateIn="fadeInUp"
                                         animateOut="fadeInOut"
                                         animateOnce={true}>
-                                        <ul>
+                                        <ul className="accomodation-list">
                                             <li className="description">200 sqft / 18.6 m2</li>
                                             <li className="description">Wall-to-Wall Panoramic Windows</li>
                                             <li className="description">French Balcony</li>
@@ -180,6 +171,13 @@ const Accomodations = () => {
                                     </ScrollAnimation>
                                 </div>
                             </div>
+                            <div className="col-lg-12 col-xl-6 col-12">
+                                <div className="thumbnail image-left-content">
+                                    {/* 945 x 709 */}
+                                    <img src="./images/service/panorama-suite.jpg" alt="split Images" />
+                                    <img src="./images/service/middleschem.png" />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -188,13 +186,6 @@ const Accomodations = () => {
                 <div className="rn-splite-style mt-5 px-5">
                     <div className="split-wrapper">
                         <div className="row no-gutters radius-10 align-items-center">
-                            <div className="col-lg-12 col-xl-6 col-12">
-                                <div className="thumbnail image-left-content">
-                                    {/* 945 x 709 */}
-                                    <img src="./images/service/catabp_sitting_area.jpg" alt="split Images" />
-                                    <img src="./images/service/middleschem.png" />
-                                </div>
-                            </div>
                             <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="split-inner">
                                     <ScrollAnimation 
@@ -207,7 +198,7 @@ const Accomodations = () => {
                                         animateIn="fadeInUp"
                                         animateOut="fadeInOut"
                                         animateOnce={true}>
-                                        <ul>
+                                        <ul className="accomodation-list">
                                             <li className="description">200 sqft / 18.6 m2</li>
                                             <li className="description">Wall-to-Wall Panoramic Windows</li>
                                             <li className="description">French Balcony</li>
@@ -218,6 +209,13 @@ const Accomodations = () => {
                                     </ScrollAnimation>
                                 </div>
                             </div>
+                            <div className="col-lg-12 col-xl-6 col-12">
+                                <div className="thumbnail image-left-content">
+                                    {/* 945 x 709 */}
+                                    <img src="./images/service/catabp_sitting_area.jpg" alt="split Images" />
+                                    <img src="./images/service/middleschem.png" />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -226,13 +224,6 @@ const Accomodations = () => {
                 <div className="rn-splite-style mt-5 px-5">
                     <div className="split-wrapper">
                         <div className="row no-gutters radius-10 align-items-center">
-                            <div className="col-lg-12 col-xl-6 col-12">
-                                <div className="thumbnail image-left-content">
-                                    {/* 945 x 709 */}
-                                    <img src="./images/service/royal-suite.jpg" alt="split Images" />
-                                    <img src="./images/service/royalschem.png" />
-                                </div>
-                            </div>
                             <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="split-inner">
                                     <ScrollAnimation 
@@ -245,7 +236,7 @@ const Accomodations = () => {
                                         animateIn="fadeInUp"
                                         animateOut="fadeInOut"
                                         animateOnce={true}>
-                                        <ul>
+                                        <ul className="accomodation-list">
                                             <li className="description">300 sqft / 27.9 m2</li>
                                             <li className="description">Panoramic Sliding Windows</li>
                                             <li className="description">French Balcony</li>
@@ -255,6 +246,13 @@ const Accomodations = () => {
                                         </ul>
             
                                     </ScrollAnimation>
+                                </div>
+                            </div>
+                            <div className="col-lg-12 col-xl-6 col-12">
+                                <div className="thumbnail image-left-content">
+                                    {/* 945 x 709 */}
+                                    <img src="./images/service/royal-suite.jpg" alt="split Images" />
+                                    <img src="./images/service/royalschem.png" />
                                 </div>
                             </div>
                         </div>
@@ -268,12 +266,6 @@ const Accomodations = () => {
                 <div className="rn-splite-style mt-5 px-5">
                     <div className="split-wrapper">
                         <div className="row no-gutters radius-10 align-items-center">
-                            <div className="col-lg-12 col-xl-6 col-12">
-                                <div className="thumbnail image-left-content">
-                                    {/* 945 x 709 */}
-                                    <img src="./images/service/deluxestatebath.jpg" alt="split Images" />
-                                </div>
-                            </div>
                             <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="split-inner">
                                     <ScrollAnimation 
@@ -287,7 +279,7 @@ const Accomodations = () => {
                                         animateIn="fadeInUp"
                                         animateOut="fadeInOut"
                                         animateOnce={true}>
-                                        <ul>
+                                        <ul className="accomodation-list">
                                             <li className="description">Make Up Mirror</li>
                                             <li className="description">Power Outlet</li>
                                             <li className="description">Spacious Shower with glass door</li>
@@ -300,18 +292,18 @@ const Accomodations = () => {
                                     </ScrollAnimation>
                                 </div>
                             </div>
+                            <div className="col-lg-12 col-xl-6 col-12">
+                                <div className="thumbnail image-left-content">
+                                    {/* 945 x 709 */}
+                                    <img src="./images/service/deluxestatebath.jpg" alt="split Images" />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div className="rn-splite-style mt-5 px-5">
                     <div className="split-wrapper">
                         <div className="row no-gutters radius-10 align-items-center">
-                            <div className="col-lg-12 col-xl-6 col-12">
-                                <div className="thumbnail image-left-content">
-                                    {/* 945 x 709 */}
-                                    <img src="./images/service/catabp_bathroom.jpg" alt="split Images" />
-                                </div>
-                            </div>
                             <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="split-inner">
                                     <ScrollAnimation 
@@ -325,11 +317,17 @@ const Accomodations = () => {
                                         animateIn="fadeInUp"
                                         animateOut="fadeInOut"
                                         animateOnce={true}>
-                                        <ul>
+                                        <ul className="accomodation-list">
                                             <li className="description">Almost twice as big as Category C bathrooms!</li>
                                         </ul>
             
                                     </ScrollAnimation>
+                                </div>
+                            </div>
+                            <div className="col-lg-12 col-xl-6 col-12">
+                                <div className="thumbnail image-left-content">
+                                    {/* 945 x 709 */}
+                                    <img src="./images/service/catabp_bathroom.jpg" alt="split Images" />
                                 </div>
                             </div>
                         </div>
@@ -343,12 +341,6 @@ const Accomodations = () => {
                     <div className="split-wrapper">
                         <div className="row no-gutters radius-10 align-items-center">
                             <div className="col-lg-12 col-xl-6 col-12">
-                                <div className="thumbnail image-left-content">
-                                    {/* 945 x 709 */}
-                                    <img src="./images/service/panoramalounge1.jpg" alt="split Images" />
-                                </div>
-                            </div>
-                            <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="split-inner">
                                     <ScrollAnimation 
                                     animateIn="fadeInUp"
@@ -356,6 +348,12 @@ const Accomodations = () => {
                                     animateOnce={true}>
                                         <h4 className="title">Lounge</h4>
                                     </ScrollAnimation>
+                                </div>
+                            </div>
+                            <div className="col-lg-12 col-xl-6 col-12">
+                                <div className="thumbnail image-left-content">
+                                    {/* 945 x 709 */}
+                                    <img src="./images/service/panoramalounge1.jpg" alt="split Images" />
                                 </div>
                             </div>
                         </div>
@@ -367,12 +365,7 @@ const Accomodations = () => {
                 <div className="rn-splite-style mt-5 px-5">
                     <div className="split-wrapper">
                         <div className="row no-gutters radius-10 align-items-center">
-                            <div className="col-lg-12 col-xl-6 col-12">
-                                <div className="thumbnail image-left-content">
-                                    {/* 945 x 709 */}
-                                    <img src="./images/service/panoramalounge2.jpg" alt="split Images" />
-                                </div>
-                            </div>
+                            
                             <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="split-inner">
                                     <ScrollAnimation 
@@ -383,6 +376,12 @@ const Accomodations = () => {
                                     </ScrollAnimation>
                                 </div>
                             </div>
+                            <div className="col-lg-12 col-xl-6 col-12">
+                                <div className="thumbnail image-left-content">
+                                    {/* 945 x 709 */}
+                                    <img src="./images/service/panoramalounge2.jpg" alt="split Images" />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -392,12 +391,6 @@ const Accomodations = () => {
                 <div className="rn-splite-style mt-5 px-5">
                     <div className="split-wrapper">
                         <div className="row no-gutters radius-10 align-items-center">
-                            <div className="col-lg-12 col-xl-6 col-12">
-                                <div className="thumbnail image-left-content">
-                                    {/* 945 x 709 */}
-                                    <img src="./images/service/observationlounge.jpg" alt="split Images" />
-                                </div>
-                            </div>
                             <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="split-inner">
                                     <ScrollAnimation 
@@ -408,6 +401,12 @@ const Accomodations = () => {
                                     </ScrollAnimation>
                                 </div>
                             </div>
+                            <div className="col-lg-12 col-xl-6 col-12">
+                                <div className="thumbnail image-left-content">
+                                    {/* 945 x 709 */}
+                                    <img src="./images/service/observationlounge.jpg" alt="split Images" />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -418,12 +417,6 @@ const Accomodations = () => {
                 <div className="rn-splite-style mt-5 px-5">
                     <div className="split-wrapper">
                         <div className="row no-gutters radius-10 align-items-center">
-                            <div className="col-lg-12 col-xl-6 col-12">
-                                <div className="thumbnail image-left-content">
-                                    {/* 945 x 709 */}
-                                    <img src="./images/service/diningroom.jpg" alt="split Images" />
-                                </div>
-                            </div>
                             <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="split-inner">
                                     <ScrollAnimation 
@@ -434,6 +427,12 @@ const Accomodations = () => {
                                     </ScrollAnimation>
                                 </div>
                             </div>
+                            <div className="col-lg-12 col-xl-6 col-12">
+                                <div className="thumbnail image-left-content">
+                                    {/* 945 x 709 */}
+                                    <img src="./images/service/diningroom.jpg" alt="split Images" />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -443,12 +442,6 @@ const Accomodations = () => {
                 <div className="rn-splite-style mt-5 px-5">
                     <div className="split-wrapper">
                         <div className="row no-gutters radius-10 align-items-center">
-                            <div className="col-lg-12 col-xl-6 col-12">
-                                <div className="thumbnail image-left-content">
-                                    {/* 945 x 709 */}
-                                    <img src="./images/service/clublounge.jpg" alt="split Images" />
-                                </div>
-                            </div>
                             <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="split-inner">
                                     <ScrollAnimation 
@@ -459,6 +452,12 @@ const Accomodations = () => {
                                     </ScrollAnimation>
                                 </div>
                             </div>
+                            <div className="col-lg-12 col-xl-6 col-12">
+                                <div className="thumbnail image-left-content">
+                                    {/* 945 x 709 */}
+                                    <img src="./images/service/clublounge.jpg" alt="split Images" />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -468,12 +467,6 @@ const Accomodations = () => {
                 <div className="rn-splite-style mt-5 px-5">
                     <div className="split-wrapper">
                         <div className="row no-gutters radius-10 align-items-center">
-                            <div className="col-lg-12 col-xl-6 col-12">
-                                <div className="thumbnail image-left-content">
-                                    {/* 945 x 709 */}
-                                    <img src="./images/service/fitness.jpg" alt="split Images" />
-                                </div>
-                            </div>
                             <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="split-inner">
                                     <ScrollAnimation 
@@ -484,6 +477,12 @@ const Accomodations = () => {
                                     </ScrollAnimation>
                                 </div>
                             </div>
+                            <div className="col-lg-12 col-xl-6 col-12">
+                                <div className="thumbnail image-left-content">
+                                    {/* 945 x 709 */}
+                                    <img src="./images/service/fitness.jpg" alt="split Images" />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -494,12 +493,6 @@ const Accomodations = () => {
                     <div className="split-wrapper">
                         <div className="row no-gutters radius-10 align-items-center">
                             <div className="col-lg-12 col-xl-6 col-12">
-                                <div className="thumbnail image-left-content">
-                                    {/* 945 x 709 */}
-                                    <img src="./images/service/skydeck.jpg" alt="split Images" />
-                                </div>
-                            </div>
-                            <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="split-inner">
                                     <ScrollAnimation 
                                     animateIn="fadeInUp"
@@ -507,6 +500,12 @@ const Accomodations = () => {
                                     animateOnce={true}>
                                         <h4 className="title">Sun Deck</h4>
                                     </ScrollAnimation>
+                                </div>
+                            </div>
+                            <div className="col-lg-12 col-xl-6 col-12">
+                                <div className="thumbnail image-left-content">
+                                    {/* 945 x 709 */}
+                                    <img src="./images/service/skydeck.jpg" alt="split Images" />
                                 </div>
                             </div>
                         </div>

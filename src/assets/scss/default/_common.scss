@@ -436,6 +436,21 @@
    
     .feature-list {
         text-align: left;
+        li::before {
+            
+            content: ' ';
+            display: inline-block;
+            margin-right: 10px;
+            height: 20px;
+            width: 20px;
+        }
+        
+        li {
+            background-image: url('../../../assets/images/a-bullet.png') !important;   
+            background-repeat: no-repeat;
+            background-size: 20px;
+            list-style: none !important;
+        }
         
         p {
             color: var(--color-body) !important;
@@ -447,6 +462,32 @@
     .text-center {
         text-align: center;
     }
+}
+
+.accomodation-list {
+    text-align: left;
+        li::before {
+            
+            content: ' ';
+            display: inline-block;
+            margin-right: 10px;
+            height: 20px;
+            width: 20px;
+        }
+        
+        li {
+            background-image: url('../../../assets/images/a-bullet.png') !important;   
+            background-repeat: no-repeat;
+            background-size: 20px;
+            list-style: none !important;
+        }
+        
+        p {
+            color: var(--color-body) !important;
+            font-weight: 600;
+            font-size: 20px !important;
+            font-family: 'Lato', sans-serif;
+        }
 }
 
 .rn-gallery {
