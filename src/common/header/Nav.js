@@ -2,7 +2,11 @@ import React, {useState, useRef} from 'react';
 import {Link} from "react-router-dom";
 import useStickyHeader from "./useStickyHeader";
 
-const Nav = () => {
+const Nav = (props) => {
+
+    const { 
+        disableScroll
+      } = props;
 
     const [ofcanvasShow, setOffcanvasShow] = useState(false);
     const onCanvasHandler = () => {
@@ -11,7 +15,7 @@ const Nav = () => {
     const ref = useRef();
     let [check] = useState(true);
     const sticky = useStickyHeader( 50 );
-    const headerClasses = `mainmenu ${(sticky && check) ? 'scrolled' : ''}`
+    const headerClasses = `mainmenu ${(sticky && check && !disableScroll) ? 'scrolled' : ''}`
     
 
     return (

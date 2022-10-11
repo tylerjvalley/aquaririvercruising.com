@@ -28,14 +28,14 @@ const MobileMenu = ({show, onClose}) => {
             <div className="inner">
                 <div className="header-top">
                     <Logo 
-                        image={`${process.env.PUBLIC_URL}/images/logo/logo.png`}
+                        image={`${process.env.PUBLIC_URL}/images/service/aquari-full-white.png`}
                         image2={`${process.env.PUBLIC_URL}/images/logo/logo-dark.png`}
                     />
                     <div className="close-menu">
                         <span className="close-button" onClick={onClose}><FiX /></span>
                     </div>
                 </div>
-                <Nav />
+                <Nav disableScroll={true} />
             </div>
         </div>
     )
