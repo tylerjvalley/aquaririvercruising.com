@@ -42,7 +42,7 @@ const OurMission = () => {
                             </div>
                             <div className="col-lg-5 col-xl-6 order-1 order-lg-2">
                                 <div className="frame-image">
-                                    <img src="./images/service/river-cruising.png" alt="Banner Images" />
+                                    <img className="mission-image" src="./images/service/river-cruising.png" alt="Banner Images" />
                                 </div>
                             </div>
                         </div>
@@ -56,13 +56,13 @@ const OurMission = () => {
                 <Separator />
                 
 
-                <div className="rn-splite-style mt-5 px-5">
+                <div className="rn-splite-style mt-5 px-0 px-md-5">
                     <div className="split-wrapper">
                         <div className="row no-gutters radius-10 align-items-center">
                             <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="thumbnail image-left-content">
                                     {/* 945 x 709 */}
-                                    <img src="./images/service/crew.jpg" alt="split Images" />
+                                    <img className="mission-image" src="./images/service/crew.jpg" alt="split Images" />
                                 </div>
                             </div>
                             <div className="col-lg-12 col-xl-6 col-12">
@@ -88,13 +88,13 @@ const OurMission = () => {
 
                 <Separator />
                 {/* Start Service Area  */}
-                <div className="rn-splite-style mt-5 px-5">
+                <div className="rn-splite-style mt-5 px-0 px-md-5">
                     <div className="split-wrapper">
                         <div className="row no-gutters radius-10 align-items-center">
                             <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="thumbnail image-left-content">
                                     {/* 945 x 709 */}
-                                    <img src="./images/service/tourism-peace.png" alt="split Images" />
+                                    <img className="mission-image" src="./images/service/tourism-peace.png" alt="split Images" />
                                 </div>
                             </div>
                             <div className="col-lg-12 col-xl-6 col-12">
@@ -122,13 +122,13 @@ const OurMission = () => {
 
                 <Separator />
                 {/* Start Service Area  */}
-                <div className="rn-splite-style mt-5 px-5">
+                <div className="rn-splite-style mt-5 px-0 px-md-5">
                     <div className="split-wrapper">
                         <div className="row no-gutters radius-10 align-items-center">
                             <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="thumbnail image-left-content">
                                     {/* 945 x 709 */}
-                                    <img src="./images/service/scenery.jpg" alt="split Images" />
+                                    <img className="mission-image" src="./images/service/scenery.jpg" alt="split Images" />
                                 </div>
                             </div>
                             <div className="col-lg-12 col-xl-6 col-12">
@@ -163,7 +163,7 @@ const OurMission = () => {
 
              
 
-                <div className="rn-splite-style mt-5 px-5">
+                <div className="rn-splite-style mt-5 px-0 px-md-5">
                     <div className="split-wrapper">
                         <div className="row no-gutters radius-10 align-items-center">
                             <div className="col-lg-12 col-xl-6 col-12">

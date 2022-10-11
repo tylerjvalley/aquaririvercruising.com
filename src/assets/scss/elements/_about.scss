@@ -84,6 +84,14 @@
         border-radius: 30px !important;
         height: 478px;
         width: 765px;
+
+        @media (max-width: 1199px) {
+            width: 100% !important;
+        }
+
+        @media (max-width: 450px) {
+            height: 300px;
+        }
     }
 }
 

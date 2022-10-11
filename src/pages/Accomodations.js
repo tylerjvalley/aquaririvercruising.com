@@ -27,7 +27,7 @@ const Accomodations = () => {
                         <div className="row align-items-center">
                             <div className="col-lg-7 col-xl-6 order-2 order-lg-1 mt_md--40 mt_sm--40">
                                 <div className="inner text-start">
-                                    <h1 className="title theme-gradient display-one" style={{fontSize: "65px", whiteSpace: "nowrap"}}>Accomodations</h1>
+                                    <h1 className="title theme-gradient display-one accomodations-title">Accomodations</h1>
                                     <ul className="list-icon">
                                         <li style={{color: "black", fontWeight: 600}}>For your comfort and enjoyment, take a look at our different stateroom types and explore our ship!</li>
                                     </ul>
@@ -49,7 +49,7 @@ const Accomodations = () => {
                 {/* End Slider Area  */}
 
                 {/* Start Service Area  */}
-                <div className="rn-splite-style mt-5 px-5 px-5">
+                <div style={{border: "1px solid black"}} className="rn-splite-style mt-5 px-0 px-md-5 text-center">
                     <div className="split-wrapper">
                         <div className="row no-gutters radius-10 align-items-center">
                             <div className="col-lg-12 col-xl-6 col-12">
@@ -110,7 +110,7 @@ const Accomodations = () => {
 
                 <Separator />
                 {/* Start Service Area  */}
-                <div className="rn-splite-style mt-5 px-5">
+                <div style={{marginTop: "250px", borderBottom: "1px solid black"}} className="rn-splite-style mt-5 px-0 px-md-5 text-center">
                     <div className="split-wrapper">
                         <div className="row no-gutters radius-10 align-items-center">
                             <div className="col-lg-12 col-xl-6 col-12">
@@ -128,6 +128,16 @@ const Accomodations = () => {
                                         <ul className="accomodation-list">
                                             <li className="description">172 sqft / 16 m2</li>
                                             <li className="description">2 Panoramic Windows</li>
+                                            <h4 style={{color: "black"}}>Bathrooms:</h4>
+                                            <ul>
+                                                <li className="description">Make Up Mirror</li>
+                                                <li className="description">Power Outlet</li>
+                                                <li className="description">Spacious Shower with glass door</li>
+                                                <li className="description">Separate colored towels</li>
+                                                <li className="description">bath-robe</li>
+                                                <li className="description">slippers</li>
+                                                <li className="description">high quality local amenities</li>
+                                            </ul>
                                         </ul>
             
                                     </ScrollAnimation>
@@ -136,8 +146,9 @@ const Accomodations = () => {
                             <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="thumbnail image-left-content">
                                     {/* 945 x 709 */}
-                                    <img src="./images/service/deluxestate.jpg" alt="split Images" />
-                                    <img src="./images/service/lowerschem.png" />
+                                    <img className="mb-5" src="./images/service/deluxestate.jpg" alt="split Images" />
+                                    <img className="mb-5" src="./images/service/deluxestatebath.jpg" alt="split Images" />
+                                    <img className="mb-5" src="./images/service/lowerschem.png" />
                                 </div>
                             </div>
                         </div>
@@ -145,7 +156,7 @@ const Accomodations = () => {
                 </div>
                 {/* End Service Area  */}
 
-                <div className="rn-splite-style mt-5 px-5">
+                <div style={{marginTop: "250px", borderBottom: "1px solid black"}} className="rn-splite-style mt-5 px-0 px-md-5 text-center">
                     <div className="split-wrapper">
                         <div className="row no-gutters radius-10 align-items-center">
                             <div className="col-lg-12 col-xl-6 col-12">
@@ -166,6 +177,10 @@ const Accomodations = () => {
                                             <li className="description">French Balcony</li>
                                             <li className="description">Seating Area</li>
                                             <li className="description">Beds Facing the Window</li>
+                                            <h4 style={{color: "black"}}>Bathrooms:</h4>
+                                            <ul>
+                                                <li className="description">Almost twice as big as the Category C bathrooms!</li>
+                                            </ul>
                                         </ul>
             
                                     </ScrollAnimation>
@@ -174,8 +189,9 @@ const Accomodations = () => {
                             <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="thumbnail image-left-content">
                                     {/* 945 x 709 */}
-                                    <img src="./images/service/panorama-suite.jpg" alt="split Images" />
-                                    <img src="./images/service/middleschem.png" />
+                                    <img className="mb-5" src="./images/service/panorama-suite.jpg" alt="split Images" />
+                                    <img className="mb-5" src="./images/service/catabp_bathroom.jpg" alt="split Images" />
+                                    <img className="mb-5" src="./images/service/middleschem.png" />
                                 </div>
                             </div>
                         </div>
@@ -183,7 +199,7 @@ const Accomodations = () => {
                 </div>
 
                 <Separator />
-                <div className="rn-splite-style mt-5 px-5">
+                <div style={{marginTop: "250px", borderBottom: "1px solid black"}} className="rn-splite-style mt-5 px-0 px-md-5 text-center">
                     <div className="split-wrapper">
                         <div className="row no-gutters radius-10 align-items-center">
                             <div className="col-lg-12 col-xl-6 col-12">
@@ -212,7 +228,7 @@ const Accomodations = () => {
                             <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="thumbnail image-left-content">
                                     {/* 945 x 709 */}
-                                    <img src="./images/service/catabp_sitting_area.jpg" alt="split Images" />
+                                    <img className="mb-5" src="./images/service/catabp_sitting_area.jpg" alt="split Images" />
                                     <img src="./images/service/middleschem.png" />
                                 </div>
                             </div>
@@ -221,7 +237,7 @@ const Accomodations = () => {
                 </div>
                 <Separator />
                 {/* Start Service Area  */}
-                <div className="rn-splite-style mt-5 px-5">
+                <div style={{marginTop: "250px", borderBottom: "1px solid black"}} className="rn-splite-style mt-5 px-0 px-md-5 text-center">
                     <div className="split-wrapper">
                         <div className="row no-gutters radius-10 align-items-center">
                             <div className="col-lg-12 col-xl-6 col-12">
@@ -251,7 +267,7 @@ const Accomodations = () => {
                             <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="thumbnail image-left-content">
                                     {/* 945 x 709 */}
-                                    <img src="./images/service/royal-suite.jpg" alt="split Images" />
+                                    <img className="mb-5" src="./images/service/royal-suite.jpg" alt="split Images" />
                                     <img src="./images/service/royalschem.png" />
                                 </div>
                             </div>
@@ -261,83 +277,10 @@ const Accomodations = () => {
                 {/* End Service Area  */}
 
 
-                <Separator />
-                {/* Start Service Area  */}
-                <div className="rn-splite-style mt-5 px-5">
-                    <div className="split-wrapper">
-                        <div className="row no-gutters radius-10 align-items-center">
-                            <div className="col-lg-12 col-xl-6 col-12">
-                                <div className="split-inner">
-                                    <ScrollAnimation 
-                                    animateIn="fadeInUp"
-                                    animateOut="fadeInOut"
-                                    animateOnce={true}>
-                                        <h4 className="title">Bathrooms</h4>
-                                        <h4 className="title">Category C:</h4>
-                                    </ScrollAnimation>
-                                    <ScrollAnimation 
-                                        animateIn="fadeInUp"
-                                        animateOut="fadeInOut"
-                                        animateOnce={true}>
-                                        <ul className="accomodation-list">
-                                            <li className="description">Make Up Mirror</li>
-                                            <li className="description">Power Outlet</li>
-                                            <li className="description">Spacious Shower with glass door</li>
-                                            <li className="description">Separate colored towels</li>
-                                            <li className="description">bath-robe</li>
-                                            <li className="description">slippers</li>
-                                            <li className="description">high quality local amenities</li>
-                                        </ul>
-            
-                                    </ScrollAnimation>
-                                </div>
-                            </div>
-                            <div className="col-lg-12 col-xl-6 col-12">
-                                <div className="thumbnail image-left-content">
-                                    {/* 945 x 709 */}
-                                    <img src="./images/service/deluxestatebath.jpg" alt="split Images" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="rn-splite-style mt-5 px-5">
-                    <div className="split-wrapper">
-                        <div className="row no-gutters radius-10 align-items-center">
-                            <div className="col-lg-12 col-xl-6 col-12">
-                                <div className="split-inner">
-                                    <ScrollAnimation 
-                                    animateIn="fadeInUp"
-                                    animateOut="fadeInOut"
-                                    animateOnce={true}>
-                                        <h4 className="title">Bathrooms</h4>
-                                        <h4 className="title">Category K/R:</h4>
-                                    </ScrollAnimation>
-                                    <ScrollAnimation 
-                                        animateIn="fadeInUp"
-                                        animateOut="fadeInOut"
-                                        animateOnce={true}>
-                                        <ul className="accomodation-list">
-                                            <li className="description">Almost twice as big as Category C bathrooms!</li>
-                                        </ul>
-            
-                                    </ScrollAnimation>
-                                </div>
-                            </div>
-                            <div className="col-lg-12 col-xl-6 col-12">
-                                <div className="thumbnail image-left-content">
-                                    {/* 945 x 709 */}
-                                    <img src="./images/service/catabp_bathroom.jpg" alt="split Images" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {/* End Service Area  */}
-
+             
                 <Separator />
 
-                <div className="rn-splite-style mt-5 px-5">
+                <div style={{marginTop: "250px", borderBottom: "1px solid black"}} className="rn-splite-style mt-5 px-0 px-md-5 text-center">
                     <div className="split-wrapper">
                         <div className="row no-gutters radius-10 align-items-center">
                             <div className="col-lg-12 col-xl-6 col-12">
@@ -362,7 +305,7 @@ const Accomodations = () => {
 
                 <Separator />
 
-                <div className="rn-splite-style mt-5 px-5">
+                <div style={{marginTop: "250px", borderBottom: "1px solid black"}} className="rn-splite-style mt-5 px-0 px-md-5 text-center">
                     <div className="split-wrapper">
                         <div className="row no-gutters radius-10 align-items-center">
                             
@@ -388,7 +331,7 @@ const Accomodations = () => {
 
                 <Separator />
 
-                <div className="rn-splite-style mt-5 px-5">
+                <div style={{marginTop: "250px", borderBottom: "1px solid black"}} className="rn-splite-style mt-5 px-0 px-md-5 text-center">
                     <div className="split-wrapper">
                         <div className="row no-gutters radius-10 align-items-center">
                             <div className="col-lg-12 col-xl-6 col-12">
@@ -414,7 +357,7 @@ const Accomodations = () => {
 
                 <Separator />
                 {/* Start Service Area  */}
-                <div className="rn-splite-style mt-5 px-5">
+                <div style={{marginTop: "250px", borderBottom: "1px solid black"}} className="rn-splite-style mt-5 px-0 px-md-5 text-center">
                     <div className="split-wrapper">
                         <div className="row no-gutters radius-10 align-items-center">
                             <div className="col-lg-12 col-xl-6 col-12">
@@ -439,7 +382,7 @@ const Accomodations = () => {
 
                 <Separator />
                 {/* Start Service Area  */}
-                <div className="rn-splite-style mt-5 px-5">
+                <div style={{marginTop: "250px", borderBottom: "1px solid black"}} className="rn-splite-style mt-5 px-0 px-md-5 text-center">
                     <div className="split-wrapper">
                         <div className="row no-gutters radius-10 align-items-center">
                             <div className="col-lg-12 col-xl-6 col-12">
@@ -464,7 +407,7 @@ const Accomodations = () => {
 
                 <Separator />
                 {/* Start Service Area  */}
-                <div className="rn-splite-style mt-5 px-5">
+                <div style={{marginTop: "250px", borderBottom: "1px solid black"}} className="rn-splite-style mt-5 px-0 px-md-5 text-center">
                     <div className="split-wrapper">
                         <div className="row no-gutters radius-10 align-items-center">
                             <div className="col-lg-12 col-xl-6 col-12">
@@ -489,7 +432,7 @@ const Accomodations = () => {
 
                 <Separator />
                 {/* Start Service Area  */}
-                <div className="rn-splite-style mt-5 px-5">
+                <div style={{marginTop: "250px", borderBottom: "1px solid black"}} className="rn-splite-style mt-5 px-0 px-md-5 text-center">
                     <div className="split-wrapper">
                         <div className="row no-gutters radius-10 align-items-center">
                             <div className="col-lg-12 col-xl-6 col-12">

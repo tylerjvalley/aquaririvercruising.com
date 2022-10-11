@@ -616,5 +616,42 @@
     }
 }
 
+.basel-image {
+    height: 900px;
+    width: 100%;
+    margin: auto;
+
+    @media (max-width: 1199px) {
+        height: 800px;
+    }
+    @media (max-width: 991px) {
+        height: 700px;
+    }
+    @media (max-width: 776px) {
+        height: 585px;
+    }
+    @media (max-width: 540px) {
+        height: 450px;
+    }
+    @media (max-width: 400px) {
+        height: 345px;
+    }
+}
+
+.accomodations-title {
+    font-size: 65px;
+    white-space: nowrap;
+    @media (max-width: 530px) {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    @media (max-width: 380px) {
+        font-size: 35px !important;
+    }
+}
+
+
+
 
 
