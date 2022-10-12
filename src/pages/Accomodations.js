@@ -99,7 +99,7 @@ const Accomodations = () => {
                             <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="thumbnail image-left-content">
                                     {/* 945 x 709 */}
-                                    <img src="./images/service/catabp_2.jpg" alt="split Images" />
+                                    {/*<img src="./images/service/catabp_2.jpg" alt="split Images" /> */}
                                 </div>
                             </div>
                         </div>
@@ -146,8 +146,7 @@ const Accomodations = () => {
                             <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="thumbnail image-left-content">
                                     {/* 945 x 709 */}
-                                    <img className="mb-5" src="./images/service/deluxestate.jpg" alt="split Images" />
-                                    <img className="mb-5" src="./images/service/deluxestatebath.jpg" alt="split Images" />
+                                    {/*<img src="./images/service/catabp_2.jpg" alt="split Images" /> */}
                                     <img className="mb-5" src="./images/service/lowerschem.png" />
                                 </div>
                             </div>
@@ -189,8 +188,7 @@ const Accomodations = () => {
                             <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="thumbnail image-left-content">
                                     {/* 945 x 709 */}
-                                    <img className="mb-5" src="./images/service/panorama-suite.jpg" alt="split Images" />
-                                    <img className="mb-5" src="./images/service/catabp_bathroom.jpg" alt="split Images" />
+                                    {/*<img src="./images/service/catabp_2.jpg" alt="split Images" /> */}
                                     <img className="mb-5" src="./images/service/middleschem.png" />
                                 </div>
                             </div>
@@ -228,7 +226,7 @@ const Accomodations = () => {
                             <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="thumbnail image-left-content">
                                     {/* 945 x 709 */}
-                                    <img className="mb-5" src="./images/service/catabp_sitting_area.jpg" alt="split Images" />
+                                   {/*<img src="./images/service/catabp_2.jpg" alt="split Images" /> */}
                                     <img src="./images/service/middleschem.png" />
                                 </div>
                             </div>
@@ -267,7 +265,7 @@ const Accomodations = () => {
                             <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="thumbnail image-left-content">
                                     {/* 945 x 709 */}
-                                    <img className="mb-5" src="./images/service/royal-suite.jpg" alt="split Images" />
+                                     {/*<img src="./images/service/catabp_2.jpg" alt="split Images" /> */}
                                     <img src="./images/service/royalschem.png" />
                                 </div>
                             </div>
@@ -280,6 +278,46 @@ const Accomodations = () => {
              
                 <Separator />
 
+                {/* Start Service Area  */}
+                <div style={{marginTop: "250px", borderBottom: "1px solid black"}} className="rn-splite-style mt-5 px-0 px-md-5 text-center">
+                    <div className="split-wrapper">
+                        <div className="row no-gutters radius-10 align-items-center">
+                            <div className="col-lg-12 col-xl-6 col-12">
+                                <div className="split-inner">
+                                    <ScrollAnimation 
+                                    animateIn="fadeInUp"
+                                    animateOut="fadeInOut"
+                                    animateOnce={true}>
+                                        <h4 className="title">Locations on the ship include:</h4>
+                                    </ScrollAnimation>
+                                    <ScrollAnimation 
+                                        animateIn="fadeInUp"
+                                        animateOut="fadeInOut"
+                                        animateOnce={true}>
+                                        <ul className="accomodation-list">
+                                            <li className="description">Lounge</li>
+                                            <li className="description">Bar</li>
+                                            <li className="description">Observation Deck</li>
+                                            <li className="description">Restaurant</li>
+                                            <li className="description">Back Lounge</li>
+                                            <li className="description">Gym</li>
+                                            <li className="description">Sundeck</li>
+                                        </ul>
+            
+                                    </ScrollAnimation>
+                                </div>
+                            </div>
+                            <div className="col-lg-12 col-xl-6 col-12">
+                                <div className="thumbnail image-left-content">
+                                    {/* 945 x 709 */}
+                                     {/*<img src="./images/service/catabp_2.jpg" alt="split Images" /> */}
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+{/*}
                 <div style={{marginTop: "250px", borderBottom: "1px solid black"}} className="rn-splite-style mt-5 px-0 px-md-5 text-center">
                     <div className="split-wrapper">
                         <div className="row no-gutters radius-10 align-items-center">
@@ -296,15 +334,15 @@ const Accomodations = () => {
                             <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="thumbnail image-left-content">
                                     {/* 945 x 709 */}
-                                    <img src="./images/service/panoramalounge1.jpg" alt="split Images" />
-                                </div>
+                                     {/*<img src="./images/service/catabp_2.jpg" alt="split Images" /> */}>
+                               {/*</main> </div>
                             </div>
                         </div>
                     </div>
-                </div>
+</div>*/}
 
                 <Separator />
-
+{/*}
                 <div style={{marginTop: "250px", borderBottom: "1px solid black"}} className="rn-splite-style mt-5 px-0 px-md-5 text-center">
                     <div className="split-wrapper">
                         <div className="row no-gutters radius-10 align-items-center">
@@ -321,7 +359,7 @@ const Accomodations = () => {
                             </div>
                             <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="thumbnail image-left-content">
-                                    {/* 945 x 709 */}
+                                    
                                     <img src="./images/service/panoramalounge2.jpg" alt="split Images" />
                                 </div>
                             </div>
@@ -346,7 +384,7 @@ const Accomodations = () => {
                             </div>
                             <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="thumbnail image-left-content">
-                                    {/* 945 x 709 */}
+                                    
                                     <img src="./images/service/observationlounge.jpg" alt="split Images" />
                                 </div>
                             </div>
@@ -356,7 +394,7 @@ const Accomodations = () => {
 
 
                 <Separator />
-                {/* Start Service Area  */}
+            
                 <div style={{marginTop: "250px", borderBottom: "1px solid black"}} className="rn-splite-style mt-5 px-0 px-md-5 text-center">
                     <div className="split-wrapper">
                         <div className="row no-gutters radius-10 align-items-center">
@@ -372,7 +410,7 @@ const Accomodations = () => {
                             </div>
                             <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="thumbnail image-left-content">
-                                    {/* 945 x 709 */}
+                                  
                                     <img src="./images/service/diningroom.jpg" alt="split Images" />
                                 </div>
                             </div>
@@ -381,7 +419,7 @@ const Accomodations = () => {
                 </div>
 
                 <Separator />
-                {/* Start Service Area  */}
+                
                 <div style={{marginTop: "250px", borderBottom: "1px solid black"}} className="rn-splite-style mt-5 px-0 px-md-5 text-center">
                     <div className="split-wrapper">
                         <div className="row no-gutters radius-10 align-items-center">
@@ -397,7 +435,7 @@ const Accomodations = () => {
                             </div>
                             <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="thumbnail image-left-content">
-                                    {/* 945 x 709 */}
+                                 
                                     <img src="./images/service/clublounge.jpg" alt="split Images" />
                                 </div>
                             </div>
@@ -406,7 +444,7 @@ const Accomodations = () => {
                 </div>
 
                 <Separator />
-                {/* Start Service Area  */}
+          
                 <div style={{marginTop: "250px", borderBottom: "1px solid black"}} className="rn-splite-style mt-5 px-0 px-md-5 text-center">
                     <div className="split-wrapper">
                         <div className="row no-gutters radius-10 align-items-center">
@@ -422,7 +460,7 @@ const Accomodations = () => {
                             </div>
                             <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="thumbnail image-left-content">
-                                    {/* 945 x 709 */}
+                                    
                                     <img src="./images/service/fitness.jpg" alt="split Images" />
                                 </div>
                             </div>
@@ -431,7 +469,7 @@ const Accomodations = () => {
                 </div>
 
                 <Separator />
-                {/* Start Service Area  */}
+              
                 <div style={{marginTop: "250px", borderBottom: "1px solid black"}} className="rn-splite-style mt-5 px-0 px-md-5 text-center">
                     <div className="split-wrapper">
                         <div className="row no-gutters radius-10 align-items-center">
@@ -447,13 +485,13 @@ const Accomodations = () => {
                             </div>
                             <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="thumbnail image-left-content">
-                                    {/* 945 x 709 */}
+                                
                                     <img src="./images/service/skydeck.jpg" alt="split Images" />
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+</div> */}
 
                 
                 {/* End Brand Area  */}
