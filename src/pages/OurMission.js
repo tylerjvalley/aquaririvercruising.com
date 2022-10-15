@@ -41,9 +41,9 @@ const OurMission = () => {
                                 </div>
                             </div>
                             <div className="col-lg-5 col-xl-6 order-1 order-lg-2">
-                                <div className="frame-image">
+                                {/*<div className="frame-image">
                                     <img className="mission-image" src="./images/service/river-cruising.png" alt="Banner Images" />
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
