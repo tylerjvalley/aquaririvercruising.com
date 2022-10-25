@@ -30,7 +30,7 @@ export default function SubscribeModal(props) {
 
       const handleSubmit = () => {
         if (props.investors) {
-          emailjs.sendForm('service_dvvyq7g', 'template_8vjtxdc', form.current, 'i_-efWng_8s_PIlOi')
+          emailjs.sendForm('service_dvvyq7g', 'template_ab714th', form.current, 'i_-efWng_8s_PIlOi')
         .then((result) => {
           console.log(result.text);
         }, (error) => {
