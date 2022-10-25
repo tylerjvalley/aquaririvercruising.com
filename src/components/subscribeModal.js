@@ -29,12 +29,22 @@ export default function SubscribeModal(props) {
       }
 
       const handleSubmit = () => {
-        emailjs.sendForm('service_5oz45n8', 'template_8vjtxdc', form.current, 'i_-efWng_8s_PIlOi')
+        if (props.investors) {
+          emailjs.sendForm('service_dvvyq7g', 'template_8vjtxdc', form.current, 'i_-efWng_8s_PIlOi')
         .then((result) => {
           console.log(result.text);
         }, (error) => {
           console.log(error.text);
         })
+        } else {
+          emailjs.sendForm('service_076kj7j', 'template_8vjtxdc', form.current, 'i_-efWng_8s_PIlOi')
+          .then((result) => {
+            console.log(result.text);
+          }, (error) => {
+            console.log(error.text);
+          })
+        }
+        
       
         props.alert(true);
         props.close(false);
