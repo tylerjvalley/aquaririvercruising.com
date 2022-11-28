@@ -263,7 +263,7 @@ const myEventsList = [
 const SailingSchedule = () => {
     return (
         <>
-            <SEO title="About Us" />
+            <SEO title="Sailing Schedule" />
             <main className="page-wrapper">
                 <HeaderOne btnStyle="btn-small" />
                 <div className="sailing-schedule">

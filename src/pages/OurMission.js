@@ -17,7 +17,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 const OurMission = () => {
     return (
         <>
-            <SEO title="Company" />
+            <SEO title="About" />
             <main className="page-wrapper">
                 <HeaderOne btnStyle="btn-small round btn-icon" HeaderSTyle="header-not-transparent" />
 

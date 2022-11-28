@@ -36,7 +36,7 @@ const Investors = () => {
     }
     return (
         <>
-            <SEO title="Company" />
+            <SEO title="Investors" />
             <main className="page-wrapper">
                 <HeaderOne btnStyle="btn-small round btn-icon" HeaderSTyle="header-not-transparent" />
 

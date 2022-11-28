@@ -16,7 +16,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 const LeisureTravel = () => {
     return (
         <>
-            <SEO title="Company" />
+            <SEO title="Leisure" />
             <main className="page-wrapper">
                 <HeaderOne btnStyle="btn-small round btn-icon" HeaderSTyle="header-not-transparent" />
 

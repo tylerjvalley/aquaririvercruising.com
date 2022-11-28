@@ -13,7 +13,7 @@ import Accomodations from './pages/Accomodations';
 import SailingSchedule from './pages/SailingSchedule';
 import Map from './pages/Map';
 import Investors from './pages/Investors';
-
+import Booking from './pages/Booking';
 
 
 import Staterooms from "./pages/Staterooms";
@@ -42,6 +42,7 @@ const App = () => {
                     <Route path={`${process.env.PUBLIC_URL + "/sailing-schedule"}`} exact component={SailingSchedule}/>
                     <Route path={`${process.env.PUBLIC_URL + "/map"}`} exact component={Map}/>
                     <Route path={`${process.env.PUBLIC_URL + "/investors"}`} exact component={Investors}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/booking"}`} exact component={Booking}/>
                     
 
                 </Switch>
